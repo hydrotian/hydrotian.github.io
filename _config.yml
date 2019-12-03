@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Tian Zhou"
-  avatar           : "profile.png"
+  avatar           : "profile_50dpi.png"
   bio              : "PhD"
-  location         : "Richland, WA, USA"
+  location         : "Richland, Washington, USA"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=AEDwNegAAAAJ&view_op=list_works&authuser=2&sortby=pubdate"
@@ -115,6 +115,8 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  technical_notes  : "http://simhydro.com/notebook"
+  old_version      : "http://simhydro.com" 
 
 
 # Reading Files
