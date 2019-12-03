@@ -2,21 +2,21 @@
 main:
   - title: "Publications"
     url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
     
   - title: "CV"
     url: /cv/
+
+  - title: "Technical Notes"
+    url: http://simhydro.com/notebook
+
+  - title: "Slides"
+    url: /talks/    
+
+  - title: "Posters"
+    url: /posters/    
     
-  - title: "Guide"
-    url: /markdown/
+  - title: "Blog"
+    url: /year-archive/
+    
+  - title: "Old Version"
+    url: http://simhydro.com
