@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Tian Zhou"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "PhD"
   location         : "Richland, WA, USA"
-  employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  employer         : 
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=AEDwNegAAAAJ&view_op=list_works&authuser=2&sortby=pubdate"
   email            :
   researchgate     : "https://www.researchgate.net/profile/Tian_Zhou"
