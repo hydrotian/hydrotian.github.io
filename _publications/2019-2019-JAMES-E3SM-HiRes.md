@@ -9,4 +9,7 @@ paperurl: 'https://doi.org/10.1029/2019MS001870'
 ---
 E3SM V1 high resolution evaluation paper
 
+![image](../images/papers/JAMES2019.PNG)
+
 [Download paper here](https://doi.org/10.1029/2019MS001870)
+
