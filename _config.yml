@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Tian Zhou"
-  avatar           : "profile_50dpi.jpg"
+  avatar           : "profile_50dpi.png"
   bio              : "PhD"
   location         : "Richland, WA"
   employer         : 
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/zhoutian"
   orcid            : "https://orcid.org/0000-0003-1582-4005"
   pinterest        :
   soundcloud       :

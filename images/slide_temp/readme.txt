@@ -1,0 +1,1 @@
+pixel resolution: 1500*800
