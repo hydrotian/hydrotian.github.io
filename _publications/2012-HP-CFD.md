@@ -3,7 +3,7 @@ title: "Meander hydrodynamics initiated by river restoration deflectors"
 collection: publications
 permalink: /publication/2012-HP-CFD
 excerpt: 'River restoration structure changes surface water hydrodynamics'
-date: 2012
+date: 1/1/2012
 venue: 'Hydrological Processes'
 paperurl: 'https://doi.org/10.1002/hyp.8352'
 citation: 'Zhou, T., &amp; Endreny, T. (2012). Meander hydrodynamics initiated by river restoration deflectors. Hydrological Processes, 26(22), 3378-3392.'
