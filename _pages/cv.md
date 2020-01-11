@@ -11,49 +11,19 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D. (2012) Water Resources Engineering, [SUNY College of Environmental Science and Forestry (SUNY-ESF)](http://www.esf.edu)
+    * _Advisor: Dr. [Thedore A. Endreny](http://www.esf.edu/ere/endreny/)_
+* M.S. (2007) Quaternary Geology, [Lanzhou University](http://www.lzu.edu.cn/)
+    * _Advisor: Dr. [Baotian Pan](http://210.26.51.247:8083/system/zhy/teachInfo.jsp?id=8)_
+* B.S. (2004) Geological Science, [Lanzhou University](http://www.lzu.edu.cn/)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Oct. 2017 - present
+  * Research Scientist at [Pacific Northwest National Laboratory](https://www.pnnl.gov/)
+  * Land surface model and river model development and application
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Oct. 2015 - Sep. 2017
+  * Postdoc Research Associate at [Pacific Northwest National Laboratory](https://www.pnnl.gov/)
+  * Hydrologic exchange 
+  * Mentor: Dr. Maoyi Huang
