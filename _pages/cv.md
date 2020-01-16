@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+[PDF](../files/CV_Zhou.pdf)
+======
+
 Education
 ======
 * Ph.D. (2012) Water Resources Engineering, [SUNY College of Environmental Science and Forestry (SUNY-ESF)](http://www.esf.edu)
@@ -27,3 +30,25 @@ Work experience
   * Postdoc Research Associate at [Pacific Northwest National Laboratory](https://www.pnnl.gov/)
   * Hydrologic exchange 
   * Mentor: Dr. Maoyi Huang
+
+[Publications](../publications/)
+======
+
+Services
+======
+* Referee for: Water Resources Research; Journal of Hydrometeorology; Journal of Hydrology; Journal of Geophysical Research: Atmospheres; Hydrology and Earth System Sciences; Hydrological Processes; Hydrogeology Journal; AGU Books; Earth System Dynamics; Water Science and Technology; International Journal of Climatology; Remote Sensing; Estuarine, Coastal and Shelf Science; WIREs Water, etc.
+* Served as review panelist for 2014 US EPA National Priorities Grant
+* Editorial board member of Advances in Climate Change Research (2018 – present)
+
+Professional License
+======
+* E.I.T. Washington, License No. 34995
+
+Honors and awards
+======
+* 2018    PNNL Exceptional Contribution Program (ECP) Award
+* 2017	EBSD Best Award, Pacific Northwest National Laboratory
+* 2011	AEES Conference Travel Grant
+* 2007-2010	Tuition Scholarship Award, SUNY ESF, NY
+* 2004	First Place in the 5th “Challenge Cup” of the College Student Research Competition of Gansu Province, China 
+* 2002	Tuition Scholarship Award, Lanzhou University, China
