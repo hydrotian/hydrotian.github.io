@@ -1,22 +1,16 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-    
   - title: "CV"
     url: /cv/
 
+  - title: "Publications"
+    url: /publications/
+    
+  - title: "Presentations"
+    url: /talks/ 
+
   - title: "Technical Notes"
     url: http://simhydro.com/notebook
-
-  - title: "Slides"
-    url: /talks/    
-
-  - title: "Posters"
-    url: /posters/    
-    
-  - title: "Blog"
-    url: /year-archive/
     
   - title: "Old Version"
     url: http://simhydro.com
