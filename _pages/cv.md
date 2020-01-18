@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[PDF](../files/CV_Zhou.pdf)
+[PDF version](../files/CV_Zhou.pdf)
 ======
 
 Education
@@ -28,17 +28,25 @@ Work experience
 
 * Oct. 2015 - Sep. 2017
   * Postdoc Research Associate at [Pacific Northwest National Laboratory](https://www.pnnl.gov/)
-  * Hydrologic exchange 
-  * Mentor: Dr. Maoyi Huang
+  * Hydrologic exchange in Columbia River reach (SW-GW interactions)
+  * Mentor: [Dr. Maoyi Huang](https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=7458)
+  
+* Oct. 2012 - Sep. 2015
+  * Postdoc Research Associate at [University of Washington](https://uw-hydro.github.io/)
+  * Large scale hydrologic modeling
+  * Mentors: [Dr. Dennis Lettenmaier](https://www.ce.washington.edu/people/faculty/lettenmaierd) and [Dr. Bart Nijssen](https://www.ce.washington.edu/facultyfinder/bart-nijssen)  
 
-[Publications](../publications/)
+[Peer-reviewed Publications](../publications/)
+======
+
+[Selected Presentations](../talks/)
 ======
 
 Services
 ======
 * Referee for: Water Resources Research; Journal of Hydrometeorology; Journal of Hydrology; Journal of Geophysical Research: Atmospheres; Hydrology and Earth System Sciences; Hydrological Processes; Hydrogeology Journal; AGU Books; Earth System Dynamics; Water Science and Technology; International Journal of Climatology; Remote Sensing; Estuarine, Coastal and Shelf Science; WIREs Water, etc.
 * Served as review panelist for 2014 US EPA National Priorities Grant
-* Editorial board member of Advances in Climate Change Research (2018 – present)
+* Editorial board member of [Advances in Climate Change Research](https://www.sciencedirect.com/journal/advances-in-climate-change-research) (2018 – present)
 
 Professional License
 ======
