@@ -14,11 +14,11 @@ redirect_from:
 
 Education
 ======
-* Ph.D. (2012) Water Resources Engineering, [SUNY College of Environmental Science and Forestry (SUNY-ESF)](http://www.esf.edu)
-    * _Advisor: Dr. [Thedore A. Endreny](http://www.esf.edu/ere/endreny/)_
-* M.S. (2007) Quaternary Geology, [Lanzhou University](http://www.lzu.edu.cn/)
-    * _Advisor: Dr. [Baotian Pan](http://210.26.51.247:8083/system/zhy/teachInfo.jsp?id=8)_
-* B.S. (2004) Geological Science, [Lanzhou University](http://www.lzu.edu.cn/)
+* Ph.D. (2012) Water Resources Engineering, [SUNY College of Environmental Science and Forestry (SUNY-ESF)](https://www.esf.edu)
+    * _Advisor: Dr. [Thedore A. Endreny](https://www.esf.edu/ere/endreny/)_
+* M.S. (2007) Quaternary Geology, [Lanzhou University](https://en.lzu.edu.cn/)
+    * _Advisor: Dr. [Baotian Pan](https://www.researchgate.net/scientific-contributions/12153771_Baotian_Pan)_
+* B.S. (2004) Geological Science, [Lanzhou University](https://en.lzu.edu.cn/)
 
 Work experience
 ======

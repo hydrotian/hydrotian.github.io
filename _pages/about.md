@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I'm Tian, an earth scientist at [Pacific Northwest National Laboratory](https://www.pnnl.gov/) in Washington State, USA. I received my MS degree from [Lanzhou University](https://en.lzu.edu.cn/), China, majoring Quaternary Geology. In 2007 I came to the US and got my PhD degree from the State University of New York, College of Environmental Science and Forestry ([SUNY-ESF](https://www.esf.edu/)) Water Resources Engineering program. After spending three years as a postdoc in the Land Surface Hydrology Group in the [University of Washington](http://www.washington.edu/), I joined my current institute as a postdoc and later a staff scientist.
+Hello, I'm Tian, an earth scientist at [Pacific Northwest National Laboratory](https://www.pnnl.gov/) in Washington State, USA. I received my MS degree from [Lanzhou University](https://en.lzu.edu.cn/), China, majoring Quaternary Geology. In 2007 I came to the US and got my PhD degree from the State University of New York, College of Environmental Science and Forestry ([SUNY-ESF](https://www.esf.edu/)) Water Resources Engineering program. After spending three years as a postdoc in the Land Surface Hydrology Group in the [University of Washington](https://www.washington.edu/), I joined my current institute as a postdoc and later a staff scientist.
 
 My research interests are hydrological processes across different spatial and temporal scales. Some examples of my past/ongoing research topics are:
 
