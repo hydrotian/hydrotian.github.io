@@ -10,7 +10,7 @@ main:
     url: /talks/ 
 
   - title: "Technical Blog"
-    url: http://simhydro.com/notebook
+    url: https://simhydro.com/notebook
     
   - title: "Old Version"
-    url: http://simhydro.com/old_site/
+    url: https://simhydro.com/old_site/
