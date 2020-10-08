@@ -3,7 +3,7 @@ title: "Impact of climate change on water availability and its propagation throu
 collection: publications
 permalink: /publication/2020-AE-power-grid
 excerpt: ''
-date: 10/17/2020
+date: 10/1/2020
 venue: 'Applied Energy'
 paperurl: 'https://doi.org/10.1016/j.apenergy.2020.115467'
 ---
