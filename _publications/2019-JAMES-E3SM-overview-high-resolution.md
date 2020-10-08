@@ -11,4 +11,3 @@ This paper overviews E3SM V1 at high resolution configuration
 
 [Link to the paper](https://doi.org/10.1029/2019MS001870)
 
-![image](../images/papers/2019-JAMES-E3SM-overview-high-resolution.png)
