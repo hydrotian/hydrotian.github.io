@@ -1,7 +1,7 @@
 ---
 title: "Global irrigation characteristics and effects simulated by fully coupled land surface, river, and water management models in E3SM"
 collection: publications
-permalink: /publication/2020-Irrigation
+permalink: /publication/2020-JAMES-Irrigation
 excerpt: ''
 date: 9/17/2020
 venue: 'Journal of Advances in Modeling Earth Systems'
