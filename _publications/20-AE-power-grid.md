@@ -3,7 +3,7 @@ title: "Impact of climate change on water availability and its propagation throu
 collection: publications
 permalink: /publication//20-AE-power-grid
 excerpt: 'This paper evaluates how projected changes in water availability affect electricity generation at hydroelectric and thermal power plants and how the coincident impacts propagate locally and throughout the interconnected power grid of western United States. '
-date: 10/1/20
+date: 1/4/20
 venue: 'Applied Energy'
 paperurl: 'https://doi.org/10.1016/j.apenergy.2020.115467'
 ---
