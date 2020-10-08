@@ -2,7 +2,7 @@
 title: "Impact of climate change on water availability and its propagation through the Western U.S. power grid"
 collection: publications
 permalink: /publication/2020-AE-power-grid
-excerpt: ''
+excerpt: 'NA'
 date: 10/1/2020
 venue: 'Applied Energy'
 paperurl: 'https://doi.org/10.1016/j.apenergy.2020.115467'

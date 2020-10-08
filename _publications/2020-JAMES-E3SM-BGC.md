@@ -2,7 +2,7 @@
 title: "The DOE E3SM v1. 1 biogeochemistry configuration: description and simulated ecosystem‐climate responses to historical changes in forcing"
 collection: publications
 permalink: /publication/2020-E3SM-BGC
-excerpt: ''
+excerpt: 'NA'
 date: 9/1/2020
 venue: 'Journal of Advances in Modeling Earth Systems'
 paperurl: 'https://doi.org/10.1029/2019MS001766'

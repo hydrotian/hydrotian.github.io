@@ -2,7 +2,7 @@
 title: "The Straightening of a River Meander Leads to Extensive Losses in Flow Complexity and Ecosystem Services"
 collection: publications
 permalink: /publication/2020-Water-ESF-flume
-excerpt: 'This paper examines water management impact over Indian basins using VIC-IRR model combined with reservoir scheme'
+excerpt: 'NA'
 date: 1/1/2020
 venue: 'Water'
 paperurl: 'https://www.mdpi.com/2073-4441/12/6/1680'
