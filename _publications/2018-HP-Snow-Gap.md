@@ -1,5 +1,5 @@
 ---
-title: "Evaluating the functionality and streamflow impacts of explicitly modeling forest?snow interactions and canopy gaps in a distributed hydrologic model"
+title: "Evaluating the functionality and streamflow impacts of explicitly modeling forest snow interactions and canopy gaps in a distributed hydrologic model"
 collection: publications
 permalink: /publication/2018-HP-Snow-Gap
 excerpt: 'This paper examines the effect of forest gaps on snow processes'

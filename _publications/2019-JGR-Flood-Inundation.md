@@ -1,5 +1,5 @@
 ---
-title: "Flood Inundation Generation Mechanisms and Their Changes in 1953?2004 in Global Major River Basins."
+title: "Flood Inundation Generation Mechanisms and Their Changes in 1953-2004 in Global Major River Basins."
 collection: publications
 permalink: /publication/2019-JGR-Flood-Inundation
 excerpt: 'This paper used MOSART-inundation to investigate global flood characteristics and the shift of flood generating factors over 50 year period'

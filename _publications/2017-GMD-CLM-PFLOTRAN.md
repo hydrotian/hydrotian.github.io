@@ -1,5 +1,5 @@
 ---
-title: "Coupling a three-dimensional subsurface flow and transport model with a land surface model to simulate stream-aquifer-land interactions (CP v1.0). "
+title: "Coupling a three-dimensional subsurface flow and transport model with a land surface model to simulate stream-aquifer-land interactions "
 collection: publications
 permalink: /publication/2017-GMD-CLM-PFLOTRAN
 excerpt: 'This paper is about coupling CLM and PFLOTRAN'
