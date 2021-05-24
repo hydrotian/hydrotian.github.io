@@ -13,5 +13,5 @@ This paper overviews E3SM V1 at standard resolution configuration
 
 ![image](../images/papers/2019-JAMES-E3SM-overview.png)
 
-<img src="../images/papers/top-download.png" alt="drawing" width="300"/>
-<img src="../images/papers/top-cited.png" alt="drawing" width="300"/>
+<img src="../images/papers/top-download.PNG" alt="drawing" width="300"/>
+<img src="../images/papers/top-cited.PNG" alt="drawing" width="300"/>
