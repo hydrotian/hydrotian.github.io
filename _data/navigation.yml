@@ -1,7 +1,5 @@
 # main links links
 main:
-  - title: "CV"
-    url: /cv/
 
   - title: "Publications"
     url: /publications/
@@ -10,10 +8,10 @@ main:
     url: /talks/ 
 
   - title: "Technical Blog"
-    url: https://simhydro.com/notebook
-    
-  - title: "Older Version"
-    url: https://simhydro.com/old_site/
+    url: /notebook/
 
   - title: "About me"
-    url: https://simhydro.com/about/
+    url: /about/
+  
+  - title: "CV"
+    url: /cv/
