@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -14,10 +14,10 @@ redirect_from:
 
 Education
 ======
-* Ph.D. (2012) Water Resources Engineering, [SUNY College of Environmental Science and Forestry (SUNY-ESF)](https://www.esf.edu)
+* Ph.D. (2012) Water Resources Engineering, [SUNY College of Environmental Science and Forestry (SUNY-ESF)](https://www.esf.edu) in association with [Syracuse University](https://www.syracuse.edu/)
     * _Advisor: Dr. [Thedore A. Endreny](https://www.esf.edu/ere/endreny/)_
 * M.S. (2007) Quaternary Geology, [Lanzhou University](https://en.lzu.edu.cn/)
-    * _Advisor: Dr. [Baotian Pan](https://www.researchgate.net/scientific-contributions/12153771_Baotian_Pan)_
+    * _Advisor: Dr. [Baotian Pan](https://zhysz.lzu.edu.cn/system/zhye/techinfo.jsp?id=179)_
 * B.S. (2004) Geological Science, [Lanzhou University](https://en.lzu.edu.cn/)
 
 Work experience
@@ -29,7 +29,7 @@ Work experience
 * Oct. 2015 - Sep. 2017
   * Postdoc Research Associate at [Pacific Northwest National Laboratory](https://www.pnnl.gov/)
   * Hydrologic exchange in Columbia River reach (SW-GW interactions)
-  * Mentor: [Dr. Maoyi Huang](https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=7458)
+  * Mentor: [Dr. Maoyi Huang](https://www.researchgate.net/profile/Maoyi-Huang)
   
 * Oct. 2012 - Sep. 2015
   * Postdoc Research Associate at [University of Washington](https://uw-hydro.github.io/)
