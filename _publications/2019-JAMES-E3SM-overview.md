@@ -15,3 +15,4 @@ This paper overviews E3SM V1 at standard resolution configuration
 
 <img src="../images/papers/top-download.PNG" alt="drawing" width="300"/>
 <img src="../images/papers/top-cited.PNG" alt="drawing" width="300"/>
+<img src="../images/papers/top-download2.PNG" alt="drawing" width="300"/>
