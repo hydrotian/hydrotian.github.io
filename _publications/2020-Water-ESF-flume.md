@@ -11,4 +11,4 @@ This paper was the last chapter of my PhD dissertation. We made a few attempts t
 
 [Link to the paper](https://doi.org/10.3390/w12061680)
 
-![image](../images/papers/2020-Water-ESF-flume.png)
+![image](../images/papers/2020-Water-ESF-flume.PNG)

@@ -11,4 +11,4 @@ This paper introduces a new land-river two-way coupling scheme implemented in E3
 
 [Link to the paper](https://doi.org/10.1029/2021MS002772)
 
-![image](../images/papers/2022-Land-River-coupling.png)
+![image](../images/papers/2022-Land-River-coupling.PNG)

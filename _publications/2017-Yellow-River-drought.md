@@ -11,4 +11,4 @@ This paper discusses drought events in Yellow River basin
 
 [Link to the paper](https://doi.org/10.5194/hess-21-5477-2017)
 
-![image](../images/papers/2017-Yellow-River-drought.png)
+![image](../images/papers/2017-Yellow-River-drought.PNG)

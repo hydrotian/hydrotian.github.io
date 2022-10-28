@@ -11,4 +11,4 @@ This paper describes the ET results from ISI-MIP simulations
 
 [Link to the paper](https://iopscience.iop.org/article/10.1088/1748-9326/aac4bb)
 
-![image](../images/papers/2018-ISIMIP.png)
+![image](../images/papers/2018-ISIMIP.PNG)

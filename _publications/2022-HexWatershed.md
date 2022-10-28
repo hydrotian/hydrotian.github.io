@@ -11,4 +11,4 @@ This paper introduces HexWatershed, a tool to generate flow network on hexagonal
 
 [Link to the paper](https://doi.org/10.1016/j.advwatres.2021.104099)
 
-![image](../images/papers/2022-HexWatershed.png)
+![image](../images/papers/2022-HexWatershed.PNG)

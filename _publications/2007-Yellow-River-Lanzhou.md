@@ -11,4 +11,4 @@ This paper reports the 4th terrace of Yellow River in Lanzhou area
 
 [Link to the paper](https://www.tandfonline.com/doi/abs/10.1080/10020070612331343246)
 
-![image](../images/papers/2007-Yellow-River-Lanzhou.png)
+![image](../images/papers/2007-Yellow-River-Lanzhou.PNG)

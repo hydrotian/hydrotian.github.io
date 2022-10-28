@@ -11,4 +11,4 @@ This paper investigates the forest canopy impacts on snow dynamics
 
 [Link to the paper](https://doi.org/10.1029/2020WR029194)
 
-![image](../images/papers/2022-Canopy-snowpack.png)
+![image](../images/papers/2022-Canopy-snowpack.PNG)

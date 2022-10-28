@@ -11,4 +11,4 @@ This paper is about coupling CLM and PFLOTRAN
 
 [Link to the paper](https://doi.org/10.5194/gmd-10-4539-2017)
 
-![image](../images/papers/2017-GMD-CLM-PFLOTRAN.png)
+![image](../images/papers/2017-GMD-CLM-PFLOTRAN.PNG)

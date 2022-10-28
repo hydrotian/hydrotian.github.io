@@ -11,4 +11,4 @@ This paper introduces MOSART-sediment scheme
 
 [Link to the paper](https://doi.org/10.5194/hess-26-665-2022)
 
-![image](../images/papers/2022-MOSART-sediment.png)
+![image](../images/papers/2022-MOSART-sediment.PNG)

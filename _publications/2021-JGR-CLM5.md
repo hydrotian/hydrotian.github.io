@@ -11,4 +11,4 @@ This paper validates the CLM5 results with different configurations
 
 [Link to the paper](https://doi.org/10.1029/2020JD033539)
 
-![image](../images/papers/2021-CLM5.png)
+![image](../images/papers/2021-JGR-CLM5.PNG)

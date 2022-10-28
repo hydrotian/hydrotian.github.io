@@ -11,4 +11,4 @@ This paper examines water management impact over Indian basins using VIC-IRR mod
 
 [Link to the paper](https://doi.org/10.1029/2019MS001870)
 
-![image](../images/papers/2019-JGR-Indian-VIC-IRR-Reservoir.png)
+![image](../images/papers/2019-JGR-Indian-VIC-IRR-Reservoir.PNG)

@@ -11,4 +11,4 @@ This paper documents the biogeochemistry configuration of the Energy Exascale Ea
 
 [Link to the paper](https://doi.org/10.1029/2019MS001766)
 
-![image](../images/papers/2020-E3SM-BGC.png)
+![image](../images/papers/2020-E3SM-BGC.PNG)

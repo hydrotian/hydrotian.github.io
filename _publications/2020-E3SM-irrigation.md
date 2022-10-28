@@ -11,4 +11,4 @@ This paper introduces a two_way coupled irrigation scheme developed within the E
 
 [Link to the paper](https://doi.org/10.1029/2020MS002069)
 
-![image](../images/papers/2020-E3SM-irrigation.png)
+![image](../images/papers/2020-E3SM-irrigation.PNG)
