@@ -8,6 +8,11 @@ redirect_from:
   - /home.html
 ---
 
+### Nov. 2022
+- Chris Golaz's [E3SM v2 paper](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2022MS003156) is published.
+- Matt's baseflow paper revision submitted to WRR.
+- 9505v2 paper revision submitted to ERL.
+
 ### Oct. 2022
 - Dongyu's [river-ocean coupling paper](https://hess.copernicus.org/articles/26/5473/2022/) is published.
 - Chang's HexWatershed [Part 1](https://www.essoar.org/doi/10.1002/essoar.10512600.1) and [Part 2](https://www.essoar.org/doi/10.1002/essoar.10512757.1) papers are available in preprint.
@@ -15,7 +20,7 @@ redirect_from:
 
 ### Sep. 2022
 - The Third Assessment of the Effects of Climate Change on Federal Hydropower is [released](https://hydroshare.ornl.gov/files/9505/SWA9505V3/9505V3_FY22_Final_Report.pdf).
-- Our manuscript about multi-model assessemnt of US federal hydropower generation is submitted to ERL. [Preprint](https://www.essoar.org/doi/10.1002/essoar.10512358.1)
+- Our manuscript about multi-model assessemnt of US federal hydropower generation (9505v2) is submitted to ERL. [Preprint](https://www.essoar.org/doi/10.1002/essoar.10512358.1)
 
 ### Aug. 2022
 - Sam Silva's E3SM Ozone deposition manuscript has been submitted to JGR
