@@ -7,19 +7,19 @@ redirect_from:
   - /aboutme/
 ---
 
-Hello, I'm Tian, an earth scientist at [Pacific Northwest National Laboratory](https://www.pnnl.gov/people/tian-zhou) in Washington State, USA. I received my BS and MS degrees from [Lanzhou University](https://en.lzu.edu.cn/), China, majoring Geosciences and Quaternary Geology. In 2007 I came to the US and got my PhD degree from the State University of New York, College of Environmental Science and Forestry ([SUNY-ESF](https://www.esf.edu/ere/)) Water Resources Engineering program. After spending three years as a postdoc in the Land Surface Hydrology Group in the [University of Washington](https://uw-hydro.github.io/), I joined my current institute as a postdoc and later a staff scientist.
+Hello, my name is Tian and I am an earth scientist at [Pacific Northwest National Laboratory](https://www.pnnl.gov/people/tian-zhou) located in Washington, USA. I received my Bachelor's and Master's degrees in Geosciences and Quaternary Geology from [Lanzhou University](https://en.lzu.edu.cn/) in China. In 2007, I relocated to the United States and earned my PhD in Water Resources Engineering from the State University of New York College of Environmental Science and Forestry ([SUNY-ESF](https://www.esf.edu/ere/)). After working as a postdoctoral researcher in the Land Surface Hydrology Group at the University of Washington for three years, I joined Pacific Northwest National Laboratory as a postdoctoral researcher before being promoted to a staff scientist.
 
-My research interests are hydrological processes across different spatial and temporal scales. Some examples of my past/ongoing research topics are:
+My research focus is on hydrological processes at various spatial and temporal scales. I have investigated a range of topics in my career, including:
 
-- When did Yellow River cut off the Shanxi-Shaanxi George and why? (Lanzhou University)
-- How does river restoration structure change surface flow hydrodynamics and hyporheic flows? (SUNY-ESF)
-- Can we use TRMM near-real-time product for flood forecast? (University of Washington)
-- How does man-made reservoir variations compare with natural water storage (e.g. soil moisture, SWE) variations globally? (University of Washington)
-- How does upstream dam operations alter hyporheic exchange patterns in Columbia River? (PNNL)
-- What is future hydropower generation going to look like in the USA? (PNNL)
-- Evaluating irrigation water allocations from surface and groundwater sources. (PNNL)
-- Quantifying spatial and temporal patterns of global floods. (PNNL)
-- Coupling land-ocean-river components in an earth system model. (PNNL)
-- Evaluating the land and river components in the [Energy Exascale Earth System Model](https://e3sm.org/) (E3SM). (PNNL)
+- The cause of the Yellow River cutting off the Shanxi-Shaanxi George (Lanzhou University)
+- The impact of river restoration on surface flow hydrodynamics and hyporheic flows (SUNY-ESF)
+- The use of TRMM near-real-time products for flood forecasting (University of Washington)
+- The comparison of man-made reservoir variations with natural water storage variations, such as soil moisture and snow water equivalent, at a global scale (University of Washington)
+- The effects of upstream dam operations on hyporheic exchange patterns in the Columbia River (PNNL)
+- Future projections for hydropower generation in the United States (PNNL)
+- Assessing irrigation water allocations from both surface and groundwater sources (PNNL)
+- Characterizing the spatial and temporal patterns of global floods (PNNL)
+- Integrating land, ocean, and river components in an earth system model (PNNL)
+- Evaluating the land and river components in the [Energy Exascale Earth System Model](https://e3sm.org/) (E3SM) (PNNL)
 
-In my spare time, I enjoy hiking, biking, and traveling. I am also a passionate landscape photographer who takes great joy from capturing the beauty of the mother nature. Some of my works can be found [here](https://www.flickr.com/photos/tizhou/albums).
+In my leisure time, I enjoy outdoor activities such as hiking and biking, as well as traveling. I am also an enthusiastic landscape photographer, capturing the stunning beauty of nature through my lens. My photography can be viewed [here](https://www.flickr.com/photos/tizhou/albums).

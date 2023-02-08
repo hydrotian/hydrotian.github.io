@@ -8,6 +8,16 @@ redirect_from:
   - /home.html
 ---
 
+### Feb. 2023
+- I'm excited to work with Ted again on developing a preproposal in response to the DOE's [FAIR](https://science.osti.gov/Initiatives/FAIR/Funding-Opportunities) call.
+
+### Jan. 2023
+- Matt's baseflow paper is published on WRR.
+- 9505v2 paper is accepted by ERL.
+
+### Dec. 2022
+- Chang's HexWatershed Part 1 paper is accepted by JAMES
+
 ### Nov. 2022
 - Chris Golaz's [E3SM v2 paper](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2022MS003156) is published.
 - Matt's baseflow paper revision submitted to WRR.
