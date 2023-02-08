@@ -15,13 +15,15 @@ redirect_from:
 Education
 ======
 * Ph.D. (2012) Water Resources Engineering, [SUNY College of Environmental Science and Forestry (SUNY-ESF)](https://www.esf.edu) in association with [Syracuse University](https://www.syracuse.edu/)
-    * _Advisor: Dr. [Thedore A. Endreny](https://www.esf.edu/ere/endreny/)_
+    * Advisor: Dr. [Thedore A. Endreny](https://www.esf.edu/ere/endreny/)
 * M.S. (2007) Quaternary Geology, [Lanzhou University](https://en.lzu.edu.cn/)
-    * _Advisor: Dr. [Baotian Pan](https://zhysz.lzu.edu.cn/system/zhye/techinfo.jsp?id=179)_
+    * Advisor: Dr. [Baotian Pan](https://zhysz.lzu.edu.cn/system/zhye/techinfo.jsp?id=179)
 * B.S. (2004) Geological Science, [Lanzhou University](https://en.lzu.edu.cn/)
 
-Work experience
+Appointments
 ======
+* Dec. 2021 - present
+  * Team Leader of the Land System Modeling (LSM) Team in the Atmosphere Science and Global Change (ASGC) Division
 * Oct. 2017 - present
   * Research Scientist at [Pacific Northwest National Laboratory](https://www.pnnl.gov/)
   * Land surface model and river model development and application
