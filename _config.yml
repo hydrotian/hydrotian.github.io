@@ -83,8 +83,8 @@ author:
   name             : "Tian Zhou"
   avatar           : "profile_50dpi.png"
   bio              : "PhD"
-  location         : "Richland, WA"
-  employer         : "Pacific Northwest National Laboratory"
+  location         : "Richland, WA, USA"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=AEDwNegAAAAJ&view_op=list_works&authuser=2&sortby=pubdate"
   email            :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : "tianzhou"
   vine             :
   weibo            :
   xing             :

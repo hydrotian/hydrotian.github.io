@@ -7,7 +7,7 @@ redirect_from:
   - /aboutme/
 ---
 
-Hello, my name is Tian and I am an earth scientist at [Pacific Northwest National Laboratory](https://www.pnnl.gov/people/tian-zhou) located in Washington, USA. I received my Bachelor's and Master's degrees in Geosciences and Quaternary Geology from [Lanzhou University](https://en.lzu.edu.cn/) in China. In 2007, I relocated to the United States and earned my PhD in Water Resources Engineering from the State University of New York College of Environmental Science and Forestry ([SUNY-ESF](https://www.esf.edu/ere/)). After working as a postdoctoral researcher in the Land Surface Hydrology Group at the University of Washington for three years, I joined Pacific Northwest National Laboratory as a postdoctoral researcher before being promoted to a staff scientist.
+Hello, my name is Tian and I am an earth scientist at [Pacific Northwest National Laboratory](https://www.pnnl.gov/people/tian-zhou) located in Washington, USA. I received my Bachelor's and Master's degrees in Geosciences and Quaternary Geology from [Lanzhou University](https://en.lzu.edu.cn/) in China. In 2007, I relocated to the United States and earned my PhD in Water Resources Engineering from the State University of New York College of Environmental Science and Forestry ([SUNY-ESF](https://www.esf.edu/ere/)). After working as a postdoctoral researcher in the Land Surface Hydrology Group (later [Computational Hydrology Group](https://uw-hydro.github.io/)) at the University of Washington for three years, I joined Pacific Northwest National Laboratory as a postdoctoral researcher before being promoted to a staff scientist.
 
 My research focus is on hydrological processes at various spatial and temporal scales. I have investigated a range of topics in my career, including:
 
@@ -20,6 +20,6 @@ My research focus is on hydrological processes at various spatial and temporal s
 - Assessing irrigation water allocations from both surface and groundwater sources (PNNL)
 - Characterizing the spatial and temporal patterns of global floods (PNNL)
 - Integrating land, ocean, and river components in an earth system model (PNNL)
-- Evaluating the land and river components in the [Energy Exascale Earth System Model](https://e3sm.org/) (E3SM) (PNNL)
+- Evaluating the land and river processes in the [Energy Exascale Earth System Model](https://e3sm.org/) (E3SM) (PNNL)
 
 In my leisure time, I enjoy outdoor activities such as hiking and biking, as well as traveling. I am also an enthusiastic landscape photographer, capturing the stunning beauty of nature through my lens. My photography can be viewed [here](https://www.flickr.com/photos/tizhou/albums).
