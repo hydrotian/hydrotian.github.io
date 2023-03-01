@@ -9,7 +9,8 @@ redirect_from:
 ---
 
 ### Feb. 2023
-- I'm excited to work with Ted again on developing a preproposal in response to the DOE's [FAIR](https://science.osti.gov/Initiatives/FAIR/Funding-Opportunities) call.
+- I'm excited to work with Ted again on developing a proposal in response to the DOE's [FAIR](https://science.osti.gov/Initiatives/FAIR/Funding-Opportunities) call.
+- Attend EBSD mini-conference in PNNL campus.
 
 ### Jan. 2023
 - Matt's baseflow paper is published on WRR.
