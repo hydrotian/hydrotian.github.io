@@ -7,9 +7,10 @@ redirect_from:
   - /home/
   - /home.html
 ---
-<a class="twitter-timeline" data-height="500" data-theme="light" href="https://twitter.com/tianzhou?ref_src=twsrc%5Etfw">Tweets by tianzhou</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- ---
- 
+<a class="twitter-timeline" data-height="300" href="https://twitter.com/tianzhou?ref_src=twsrc%5Etfw">Tweets by tianzhou</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
 ### Jul. 2023
 - Happy to host Yi Yao's PNNL visit.
 - Qi Tang's [E3SM v2 RRM paper](https://gmd.copernicus.org/articles/16/3953/2023/) is published on GMD
