@@ -30,7 +30,7 @@ redirect_from:
 ### Jan. 2023
 - Matt's [baseflow paper](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022WR033154) is published on WRR.
 
-## [older updates](https://simhydro.com/talks/older_updates/)
+## [older updates](https://simhydro.com/older_updates/)
 ---
 
 <a class="twitter-timeline" data-height="300" href="https://twitter.com/tianzhou?ref_src=twsrc%5Etfw">Tweets by tianzhou</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
