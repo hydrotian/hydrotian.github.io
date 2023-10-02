@@ -7,6 +7,13 @@ redirect_from:
   - /home/
   - /home.html
 ---
+### Sep. 2023
+- Benjamin's [E3SM-ADCIRC paper](https://link.springer.com/article/10.1007/s11069-023-06192-7) is published on Natural Hazards
+- First batch of IRRMIP data simulated by E3SM transferred to Yi Yao through Globus. I had to create a new account in VUB as a volunteer to link VUB HPC endponts to my Globus account.
+
+### Aug. 2023
+- Submitted an abstract to this AGU Fall meeting.
+
 ### Jul. 2023
 - Happy to host Yi Yao's PNNL visit.
 - Qi Tang's [E3SM v2 RRM paper](https://gmd.copernicus.org/articles/16/3953/2023/) is published on GMD
@@ -16,10 +23,10 @@ redirect_from:
 - Attended the E3SM all-hands meeting in Denver, CO
 - Collaborate with Chang, Matt, and Zeli on a [NASA ROSES](https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7b274C8365-A038-339F-A3AE-8F5BFE178312%7d&path=&method=init) proposal submission
 
-### May. 2023
+### May 2023
 - Collaborate with LANL team for a [BRaVE](https://www.energy.gov/science/articles/department-energy-announces-105-million-research-support-biopreparedness-research) prospsal submission
 
-### April. 2023
+### Apr. 2023
 - FAIR proposal submitted
 
 ### Feb. 2023
@@ -31,6 +38,5 @@ redirect_from:
 - Matt's [baseflow paper](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022WR033154) is published on WRR.
 
 ## [older updates](https://simhydro.com/older_updates/)
----
 
-<a class="twitter-timeline" data-height="300" href="https://twitter.com/tianzhou?ref_src=twsrc%5Etfw">Tweets by tianzhou</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[comment]: <> (<a class="twitter-timeline" data-height="300" href="https://twitter.com/tianzhou?ref_src=twsrc%5Etfw">Tweets by tianzhou</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>)
