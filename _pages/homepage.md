@@ -7,6 +7,10 @@ redirect_from:
   - /home/
   - /home.html
 ---
+### Oct. 2023
+- Chang's [HexWatershed Part II paper](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022MS003487) is accepted by JAMES
+- Matt's [JOSS paper about baseflow analysis tool](https://joss.theoj.org/papers/10.21105/joss.05492) is published
+
 ### Sep. 2023
 - Benjamin's [E3SM-ADCIRC paper](https://link.springer.com/article/10.1007/s11069-023-06192-7) is published on Natural Hazards
 - First batch of IRRMIP data simulated by E3SM transferred to Yi Yao through Globus. I had to create a new account in VUB as a volunteer to link VUB HPC endponts to my Globus account.
@@ -40,3 +44,7 @@ redirect_from:
 ## [older updates](https://simhydro.com/older_updates/)
 
 [comment]: <> (<a class="twitter-timeline" data-height="300" href="https://twitter.com/tianzhou?ref_src=twsrc%5Etfw">Tweets by tianzhou</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>)
+
+<!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=9849480&style=0024&nbdigits=6&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>        
