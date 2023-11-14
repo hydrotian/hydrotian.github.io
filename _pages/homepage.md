@@ -47,4 +47,4 @@ redirect_from:
 
 <!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=9849480&style=0024&nbdigits=6&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>        
+<img src="https://hitwebcounter.com/counter/counter.php?page=9849551&style=0007&nbdigits=6&type=page&initCount=10" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>
