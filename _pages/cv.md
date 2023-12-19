@@ -56,7 +56,7 @@ Professional License
 
 Honors and awards
 ======
-* 2018    PNNL Exceptional Contribution Program (ECP) Award
+* 2018  PNNL Exceptional Contribution Program (ECP) Award
 * 2017	EBSD Best Award, Pacific Northwest National Laboratory
 * 2011	AEES Conference Travel Grant
 * 2007-2010	Tuition Scholarship Award, SUNY ESF, NY
