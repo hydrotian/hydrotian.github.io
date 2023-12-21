@@ -38,9 +38,9 @@ redirect_from:
 - Attended the E3SM all-hands meeting in Denver, CO
 - Collaborate with Chang, Matt, and Zeli on a [NASA ROSES](https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7b274C8365-A038-339F-A3AE-8F5BFE178312%7d&path=&method=init) proposal submission
 
-<img src="../images/photos/2023_E3SM.jpg" alt="drawing" height="180"/>
-<img src="../images/photos/Aspen2023.JPG" alt="drawing" height="180"/>
-<img src="../images/photos/Aspen2023_Yoshi.JPG" alt="drawing" height="180"/>
+<img src="../images/photos/2023_E3SM.jpg" alt="drawing" width="200"/>
+<img src="../images/photos/Aspen2023.JPG" alt="drawing" width="205"/>
+<img src="../images/photos/Aspen2023_Yoshi.JPG" alt="drawing" width="154"/>
 
 ### May 2023
 - Collaborate with LANL team for a [BRaVE](https://www.energy.gov/science/articles/department-energy-announces-105-million-research-support-biopreparedness-research) prospsal submission
