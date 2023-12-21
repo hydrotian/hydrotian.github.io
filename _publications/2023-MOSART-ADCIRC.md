@@ -3,7 +3,7 @@ title: "One-way coupling of E3SM with ADCIRC demonstrated on Hurricane Harvey"
 collection: publications
 permalink: /publication/2023-MOSART-ADCIRC
 excerpt: 'This paper present a novel one-way coupling of MOSART with the ADvanced CIRCulation model (ADCIRC). The coupled model is validated against NOAA tidal gauge observations for Hurricane Harvey (2017) in Gulf of Mexico region.'
-date: 9/3/2023
+date: 2023-09-03
 venue: 'Natural Hazards'
 paperurl: 'https://doi.org/10.1007/s11069-023-06192-7 '
 citation: 'Pachev, B., Leung, L. R., Zhou, T., &amp; Dawson, C. (2023). One-way coupling of E3SM with ADCIRC demonstrated on Hurricane Harvey. Natural Hazards. '

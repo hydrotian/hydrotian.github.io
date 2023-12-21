@@ -3,7 +3,7 @@ title: "baseflow: a MATLAB and GNU Octave package for baseflow recession analysi
 collection: publications
 permalink: /publication/2023-JOSS-baseflow
 excerpt: 'This paper documents baseflow, a MATLAB toolbox for baseflow recession analysis'
-date: 4/2/2023
+date: 2023-04-02
 venue: 'The Journal of Open Source Software'
 paperurl: 'https://doi.org/10.21105/joss.05492 '
 citation: 'Cooper, M. G., &amp; Zhou, T. (2023). baseflow: a MATLAB and GNU Octave package for baseflow

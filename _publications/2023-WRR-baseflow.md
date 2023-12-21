@@ -3,7 +3,7 @@ title: "Detecting Permafrost Active Layer Thickness Change From Nonlinear Basefl
 collection: publications
 permalink: /publication/2023-WRR-baseflow
 excerpt: 'This study introduces a theoretical nonlinear relationships between long-term average saturated soil thickness (proxy for active layer thickness) and long-term average baseflow. We applied the al'
-date: 1/1/2023
+date: 2023-01-01
 venue: 'Water Resources Research'
 paperurl: 'https://doi.org/10.1029/2022wr033154 '
 citation: 'Cooper, M. G., Zhou, T., Bennett, K. E., Bolton, W. R., Coon, E. T., Fleming, S. W., Rowland, J. C., &amp; Schwenk, J. (2023). Detecting Permafrost Active Layer Thickness Change From Nonlinear Baseflow Recession. Water Resources Research, 59(1). '
