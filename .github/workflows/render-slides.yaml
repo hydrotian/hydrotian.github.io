@@ -1,0 +1,35 @@
+name: render-talks-with-marp
+
+on:
+  push:
+    branches: [ master ]
+    paths: 
+      - "_talks/**"
+
+jobs:
+  render-talks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build talks
+        uses: docker://marpteam/marp-cli:v2.0.4
+        with:
+          args: -I _talks/ --output talks/
+        env:
+          MARP_USER: root:root
+      - name: Push to Branch
+        run: |
+          git config user.name 'marp talks build'
+          git config user.email 'hydrotian@users.noreply.github.com'
+          git checkout -b "talks-${{github.run_id}}"
+          git add talks/
+          git commit -m "feat: Add rendered talks"
+          git push --set-upstream origin "talks-${{github.run_id}}"
+      - name: Open PR
+        run: | 
+          curl   -X POST \
+          -f \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          https://api.github.com/repos/hydrotian/hydrotian.github.io/pulls \
+          -d '{"title":"Add rendered talks","body":"Adding rendered talks","head":"talks-${{github.run_id}}","base":"master"}'
