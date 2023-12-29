@@ -24,7 +24,7 @@ jobs:
                  filename=$(basename -- "$file")
                  basename="${filename%.*}"
                  awk '/^---$/{print; if(flag) exit; flag=1; next} flag' "$file" > "_talks/$filename"
-                 echo "[See slides/poster](../slide/$basename.html)" >> "_talks/$filename"
+                 echo "[See slides/poster](simhydro.com/slides/$basename.html)" >> "_talks/$filename"
              done
       - name: Push to Branch
         run: |
