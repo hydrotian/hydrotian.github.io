@@ -2,7 +2,8 @@
 title: "These are some sample markdown slides"
 collection: talks
 type: "oral"
-venue: "AMS"
+permalink: /talks/12/28/2023-Marp
+venue: " "
 date: 12/28/2023
 location: "Richland, WA"
 ---
