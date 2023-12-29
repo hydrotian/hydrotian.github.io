@@ -25,7 +25,7 @@ jobs:
                  basename="${filename%.*}"
                  { 
                  awk '/^---$/{print; if(flag) exit; flag=1; next} flag' "$file";
-                 echo "[See slides/poster](/slides/$basename.html)";
+                 echo "[See slides/poster](https://simhydro.com/slides/$basename.html)";
                  } > "_talks/$filename"
              done
       - name: Push to Branch
