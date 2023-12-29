@@ -1,30 +1,46 @@
-name: render-talks-with-marp
+name: render-slides-with-marp
 
 on:
   push:
     branches: [ master ]
     paths: 
-      - "_talks/**"
+      - "_slides/**"
 
 jobs:
-  render-talks:
+  render-slides:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Build talks
+
+      - name: Build slides
         uses: docker://marpteam/marp-cli:v2.0.4
         with:
-          args: -I _talks/ --output talks/
+          args: -I _slides/ --output slides/
         env:
           MARP_USER: root:root
+
+      - name: Copy and Alter Front Matter
+        run: |
+           mkdir -p _talks  # Ensure the _talks directory exists
+             for file in _slides/*.md; do
+                 filename=$(basename -- "$file")
+                 basename="${filename%.*}"  # Extracts the base name without the file extension
+      
+      # Use awk to extract the front matter and write it to a new file in _talks
+                 awk '/^---$/{flag=(flag+1)%2;next} flag' "$file" > "_talks/$filename"
+      
+      # Append a new line with the link after the front matter
+                 echo "[See slides/poster](slide/$basename.html)" >> "_talks/$filename"
+             done
+
       - name: Push to Branch
         run: |
-          git config user.name 'marp talks build'
+          git config user.name 'marp slides build'
           git config user.email 'hydrotian@users.noreply.github.com'
-          git checkout -b "talks-${{github.run_id}}"
-          git add talks/
-          git commit -m "feat: Add rendered talks"
-          git push --set-upstream origin "talks-${{github.run_id}}"
+          git checkout -b "slides-${{github.run_id}}"
+          git add slides/
+          git commit -m "feat: Add rendered slides"
+          git push --set-upstream origin "slides-${{github.run_id}}"
       - name: Open PR
         run: | 
           curl   -X POST \
@@ -32,4 +48,4 @@ jobs:
           -H "Accept: application/vnd.github+json" \
           -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           https://api.github.com/repos/hydrotian/hydrotian.github.io/pulls \
-          -d '{"title":"Add rendered talks","body":"Adding rendered talks","head":"talks-${{github.run_id}}","base":"master"}'
+          -d '{"title":"Add rendered slides","body":"Adding rendered slides","head":"slides-${{github.run_id}}","base":"master"}'
