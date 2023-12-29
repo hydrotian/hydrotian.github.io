@@ -24,8 +24,10 @@ jobs:
                  filename=$(basename -- "$file")
                  basename="${filename%.*}"
                  { 
-                 awk 'BEGIN{flag=0}/^---$/{flag++}flag==1' "$file";
-                 echo "[See slides/poster](https://simhydro.com/slides/$basename.html)";
+                  echo "---"
+                  grep -E '^(title:|collection:|type:|venue:|date:|location:)' "$file"
+                  echo "---"
+                  echo "[See slides/poster](https://simhydro.com/slides/$basename.html)";
                  } > "_talks/$filename"
              done
       - name: Push to Branch
