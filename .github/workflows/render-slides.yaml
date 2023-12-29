@@ -11,28 +11,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
       - name: Build slides
         uses: docker://marpteam/marp-cli:v2.0.4
         with:
           args: -I _slides/ --output slides/
         env:
           MARP_USER: root:root
-
       - name: Copy and Alter Front Matter
         run: |
            mkdir -p _talks  # Ensure the _talks directory exists
              for file in _slides/*.md; do
                  filename=$(basename -- "$file")
-                 basename="${filename%.*}"  # Extracts the base name without the file extension
-      
-      # Use awk to extract the front matter and write it to a new file in _talks
-                 awk '/^---$/{flag=(flag+1)%2;next} flag' "$file" > "_talks/$filename"
-      
-      # Append a new line with the link after the front matter
+                 basename="${filename%.*}"
+                 awk '/^---$/{flag=(flag+1)%2;next} flag' "$file" > "_talks/$filename"  
                  echo "[See slides/poster](slide/$basename.html)" >> "_talks/$filename"
              done
-
       - name: Push to Branch
         run: |
           git config user.name 'marp slides build'
