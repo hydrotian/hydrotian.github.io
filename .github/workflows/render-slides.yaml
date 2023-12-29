@@ -31,7 +31,9 @@ jobs:
           git config user.name 'marp slides build'
           git config user.email 'hydrotian@users.noreply.github.com'
           git checkout -b "slides-${{github.run_id}}"
-          git add slides/
+          git add slides/*
+          git add _talks/*
+          git add _slides/*
           git commit -m "feat: Add rendered slides"
           git push --set-upstream origin "slides-${{github.run_id}}"
       - name: Open PR
