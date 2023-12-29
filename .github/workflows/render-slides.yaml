@@ -23,8 +23,8 @@ jobs:
              for file in _slides/*.md; do
                  filename=$(basename -- "$file")
                  basename="${filename%.*}"
-                 awk '/^---$/{flag=(flag+1)%2;next} flag' "$file" > "_talks/$filename"  
-                 echo "[See slides/poster](slide/$basename.html)" >> "_talks/$filename"
+                 awk '/^---$/{print; if(flag) exit; flag=1; next} flag' "$file" > "_talks/$filename"
+                 echo "[See slides/poster](../slide/$basename.html)" >> "_talks/$filename"
              done
       - name: Push to Branch
         run: |

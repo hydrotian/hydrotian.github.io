@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: gaia 
+theme: default 
 class: invert
 # Header configuring this as marp slides
 # Theme and class simply defining my preferred dark theme for slides
@@ -8,12 +8,12 @@ title: "These are some sample markdown slides"
 collection: talks
 type: "oral"
 venue: "AMS"
-date: 12/28/2023
+date: 28/12/2023
 location: "Richland, WA"
 ---
 
 <!-- A slide with a title -->
-# These are some sample markdown slides
+# Sample markdown slides using MARP
 
 ---
 
