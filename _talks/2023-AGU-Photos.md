@@ -1,5 +1,5 @@
 ---
-title: "2023 AGU"
+title: "2023 AGU Photos"
 collection: "photo"
 type: "photo"
 date: 15/12/2023

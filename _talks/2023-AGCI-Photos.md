@@ -1,5 +1,5 @@
 ---
-title: "2023 AGCI Workshop"
+title: "2023 AGCI Workshop Photos"
 collection: "photo"
 type: "photo"
 date: 15/06/2023
