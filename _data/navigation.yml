@@ -7,11 +7,11 @@ main:
   - title: "Publications"
     url: /publications/
     
-  - title: "Presentations"
-    url: /talks/ 
-
   - title: "CV"
     url: /cv/
 
   - title: "Technical Blog"
     url: /notebook/
+
+#  - title: "Presentations"
+#    url: /talks/ 
