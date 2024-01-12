@@ -8,12 +8,7 @@ redirect_from:
   - /home.html
 ---
 ### Dec. 2023
-- Met so many old and new friends in [AGU23](https://www.agu.org/fall-meeting). Presented our Inter-basin water transfer work.
-
-<img src="../images/photos/Agu2023-dennis.jpg" alt="drawing" width="200"/>
-<img src="../images/photos/AGU2023_dinner.jpg" alt="drawing" width="200"/>
-<img src="../images/photos/AGU2023_Yang.JPG" alt="drawing" width="200"/>
-<img src="../images/photos/Agu2023_Yi.JPG" alt="drawing" width="200"/>
+- Met so many old and new friends in [AGU23](https://www.agu.org/fall-meeting). Presented our Inter-basin water transfer work. [See some photos.](https://simhydro.com/slides/2023-AGU-Photos.html)
 
 ### Nov. 2023
 - Bryce's E3SMv1 CONUS water budget [metrics paper](../_publications/2023-E3SMv1-CONUS.md) finally got published!
@@ -37,10 +32,7 @@ redirect_from:
 - Attended the "Irrigation in the Earth System" [workshop](https://www.agci.org/workshops/7014x0000002IxWAAU/irrigation-in-the-earth-system-priorities-for-data-modeling-and-cross-disciplinary-research) organized by the [Aspen Global Change Institute](https://www.agci.org/). Very informative discussions.
 - Attended the E3SM all-hands meeting in Denver, CO
 - Collaborate with Chang, Matt, and Zeli on a [NASA ROSES](https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7b274C8365-A038-339F-A3AE-8F5BFE178312%7d&path=&method=init) proposal submission
-
-<img src="../images/photos/2023_E3SM.jpg" alt="drawing" width="200"/>
-<img src="../images/photos/Aspen2023.JPG" alt="drawing" width="205"/>
-<img src="../images/photos/Aspen2023_Yoshi.JPG" alt="drawing" width="154"/>
+- [Some photos from this month.](https://simhydro.com/slides/2023-AGCI-Photos.html)
 
 ### May 2023
 - Collaborate with LANL team for a [BRaVE](https://www.energy.gov/science/articles/department-energy-announces-105-million-research-support-biopreparedness-research) prospsal submission

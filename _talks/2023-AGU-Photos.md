@@ -1,6 +1,7 @@
 ---
 title: "2023 AGU"
 collection: "photo"
+type: "photo"
 date: 15/12/2023
 location: "San Francisco, CA"
 ---
