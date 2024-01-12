@@ -1,6 +1,6 @@
 ---
 title: "Modeling Inter-Basin Water Transfers in E3SM"
-collection: talks
+collection: "talk"
 date: 11/01/2024
 location: "Online"
 venue: "InteRFACE Monthly Permafrost Hydrology Meeting"
