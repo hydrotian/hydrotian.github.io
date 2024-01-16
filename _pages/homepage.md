@@ -8,7 +8,8 @@ redirect_from:
   - /home.html
 ---
 ### Jan. 2024
-- Give a [talk](https://simhydro.com/slides/2024-Interface-PHmeeting.html) about our IBT work (presented on AGU) on the InteRFACE permafrost hydrology meeting.
+- Had a great follow-up discussion about our AGU posters with [Dr. Zhan Tian](https://www.sustech.edu.cn/en/faculties/tianzhan.html) of SUSTech. 
+- Gave a [talk](https://simhydro.com/slides/2024-Interface-PHmeeting.html) about our IBT work (presented on AGU) on the InteRFACE permafrost hydrology meeting.
 
 ### Dec. 2023
 - Met so many old and new friends in [AGU23](https://www.agu.org/fall-meeting). Presented our Inter-basin water transfer work. [See some photos.](https://simhydro.com/slides/2023-AGU-Photos.html)
