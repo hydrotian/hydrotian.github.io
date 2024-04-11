@@ -7,6 +7,13 @@ redirect_from:
   - /home/
   - /home.html
 ---
+### Apr. 2024
+- Hoang's [Lower Mississippi paper](https://journals.ametsoc.org/view/journals/hydr/aop/JHM-D-23-0094.1/JHM-D-23-0094.1.xml) is published on JHM
+### Mar. 2024
+- Started to serve in the [JAWRA Editorial Board](https://www.awra.org/AWRA/Members/Publications/JAWRA_Pages__CM_/JAWRA_Editorial_Board.aspx) as an Associate Editor.
+- Donghui's [Climate change will reduce North American inland wetland areas and disrupt their seasonal regimes](https://www.nature.com/articles/s41467-024-45286-z) paper is published on Nature Communications
+### Feb. 2024
+- Gave a talk about IBT and overall ICoM land-river-ocean coupling configuration to a research group in [Sun Yet-Sen University](https://www.google.com/search?client=safari&rls=en&q=sun-yet+sen+university&ie=UTF-8&oe=UTF-8). 
 ### Jan. 2024
 - Had a great follow-up discussion about our AGU posters with [Dr. Zhan Tian](https://www.sustech.edu.cn/en/faculties/tianzhan.html) of SUSTech. 
 - Gave a [talk](https://simhydro.com/slides/2024-Interface-PHmeeting.html) about our IBT work (presented on AGU) on the InteRFACE permafrost hydrology meeting.
