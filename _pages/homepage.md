@@ -7,6 +7,9 @@ redirect_from:
   - /home/
   - /home.html
 ---
+### May 2024
+- Gave a lecture on the [first in-person E3SM tutorial workshop at NERSC](https://acme-climate.atlassian.net/wiki/spaces/ET/pages/4259971074/2024+E3SM+Tutorial+Workshop) about MOSART. [[Video Link]](https://www.youtube.com/watch?v=yK_uqNvZ4fE&t=6519s)
+
 ### Apr. 2024
 - Hoang's [Lower Mississippi paper](https://journals.ametsoc.org/view/journals/hydr/aop/JHM-D-23-0094.1/JHM-D-23-0094.1.xml) is published on JHM
 
