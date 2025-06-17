@@ -41,51 +41,72 @@
     color: #bc8cff !important;
   }
 
-  /* Navigation */
+  /* Navigation - Force dark background everywhere */
   .masthead {
+    background: #0d1117 !important;
     background-color: #0d1117 !important;
     border-bottom: 1px solid #30363d !important;
   }
 
   .masthead__inner-wrap {
+    background: #0d1117 !important;
     background-color: #0d1117 !important;
   }
 
   .masthead__menu {
+    background: #0d1117 !important;
     background-color: #0d1117 !important;
   }
 
-  .site-title,
-  .masthead__menu-item a {
-    color: #f0f6fc !important;
+  .masthead__menu ul {
+    background: #0d1117 !important;
+    background-color: #0d1117 !important;
   }
 
-  .masthead__menu-item a:hover {
+  /* Navigation links - ensure they're visible */
+  .masthead__menu-item a,
+  .site-title a,
+  .greedy-nav a {
+    color: #e6edf3 !important;
+    background: transparent !important;
+  }
+
+  .masthead__menu-item a:hover,
+  .site-title a:hover,
+  .greedy-nav a:hover {
     color: #58a6ff !important;
+    background: transparent !important;
   }
 
-  /* Fix any remaining white backgrounds in header area */
+  /* Greedy nav (responsive navigation) */
+  .greedy-nav {
+    background: #0d1117 !important;
+    background-color: #0d1117 !important;
+  }
+
+  .greedy-nav .visible-links,
+  .greedy-nav .hidden-links {
+    background: #0d1117 !important;
+    background-color: #0d1117 !important;
+  }
+
+  /* Mobile menu button */
+  .greedy-nav button {
+    background: #0d1117 !important;
+    background-color: #0d1117 !important;
+    color: #e6edf3 !important;
+  }
+
+  .greedy-nav .navicon,
+  .greedy-nav .navicon:before,
+  .greedy-nav .navicon:after {
+    background: #e6edf3 !important;
+  }
+
+  /* Fix any remaining white backgrounds */
   .page__hero,
   .page__hero--overlay {
     background-color: #0d1117 !important;
-  }
-
-  /* Make sure all navigation elements are dark */
-  .greedy-nav {
-    background-color: #0d1117 !important;
-  }
-
-  .greedy-nav a {
-    color: #f0f6fc !important;
-  }
-
-  .greedy-nav a:hover {
-    color: #58a6ff !important;
-  }
-
-  /* Hidden navigation button */
-  .greedy-nav__toggle {
-    color: #f0f6fc !important;
   }
 
   /* Sidebar */
