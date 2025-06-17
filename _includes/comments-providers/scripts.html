@@ -1,0 +1,69 @@
+{% case site.comments.provider %}
+{% when "disqus" %}
+  <script>
+    var disqus_config = function () {
+      this.page.url = "{{ page.url | absolute_url }}";
+      this.page.identifier = "{{ page.url | absolute_url }}";
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://{{ site.comments.disqus.shortname }}.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% when "facebook" %}
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '{{ site.comments.facebook.appid }}',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v2.10'
+      });
+    };
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+{% when "staticman" %}
+  <script>
+    (function ($) {
+      $('#new_comment').submit(function () {
+        var form = this;
+        $(form).addClass('disabled');
+        $('#comment-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw"></i> {{ site.data.ui-text[site.locale].loading_label | default: "Loading..." }}');
+        $.ajax({
+          type: $(this).attr('method'),
+          url: $(this).attr('action'),
+          data: $(this).serialize(),
+          contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+          success: function (data) {
+            $('#comment-form-submit').html('{{ site.data.ui-text[site.locale].comment_btn_submitted | default: "Submitted" }}');
+            $('.page__comments-form .js-notice').removeClass('notice--danger');
+            $('.page__comments-form .js-notice').addClass('notice--success');
+            showAlert('<strong>{{ site.data.ui-text[site.locale].comment_success_msg | default: "Thanks for your comment! It will show on the site once it has been approved." }}</strong>');
+          },
+          error: function (err) {
+            console.log(err);
+            $('#comment-form-submit').html('{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit Comment" }}');
+            $('.page__comments-form .js-notice').removeClass('notice--success');
+            $('.page__comments-form .js-notice').addClass('notice--danger');
+            showAlert('<strong>{{ site.data.ui-text[site.locale].comment_error_msg | default: "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again." }}</strong>');
+            $(form).removeClass('disabled');
+          }
+        });
+        return false;
+      });
+      function showAlert(message) {
+        $('.page__comments-form .js-notice').removeClass('hidden');
+        $('.page__comments-form .js-notice-text').html(message);
+      }
+    })(jQuery);
+  </script>
+{% endcase %}
