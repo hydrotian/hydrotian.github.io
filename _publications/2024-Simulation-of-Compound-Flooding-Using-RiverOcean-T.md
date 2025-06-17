@@ -1,5 +1,5 @@
 ---
-citation: ''
+citation: 'Feng, D., Tan, Z., Engwirda, D., Wolfe, J. D., Xu, D., Liao, C., et al. (2024). Simulation of compound flooding using river-ocean two-way coupled E3SM ensemble on variable-resolution meshes. Journal of Advances in Modeling Earth Systems, 16, e2023MS004054. https://doi.org/10.1029/2023MS004054'
 collection: publications
 comments: true
 date: '2024-06-01'

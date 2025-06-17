@@ -1,5 +1,5 @@
 ---
-citation: ''
+citation: 'Thurber et al., (2024). wmpy-power: A Python package for process-based regional hydropower simulation. Journal of Open Source Software, 9(103), 7225, https://doi.org/10.21105/joss.07225'
 collection: publications
 comments: true
 date: '2024-11-08'

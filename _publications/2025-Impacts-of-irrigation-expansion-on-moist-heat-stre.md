@@ -1,5 +1,5 @@
 ---
-citation: ''
+citation: 'Yao, Y., Ducharne, A., Cook, B.I. et al. Impacts of irrigation expansion on moist-heat stress based on IRRMIP results. Nat Commun 16, 1045 (2025). https://doi.org/10.1038/s41467-025-56356-1'
 collection: publications
 comments: true
 date: '2025-01-26'

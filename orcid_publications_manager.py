@@ -9,16 +9,20 @@ Author: Tian Zhou
 ORCID: 0000-0003-1582-4005
 """
 
-import requests
 import json
-import os
 import re
-import yaml
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Set, Optional
-import hashlib
 import logging
+
+try:
+    import requests
+    import yaml
+except ImportError as e:
+    print(f"Missing required packages: {e}")
+    print("Please install with: pip install requests PyYAML")
+    exit(1)
 
 # Configuration
 ORCID_ID = "0000-0003-1582-4005"
@@ -31,8 +35,10 @@ CACHE_FILE = ".orcid_cache.json"
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class ORCIDPublicationManager:
-    def __init__(self, orcid_id: str):
+    def __init__(self, orcid_id: str, min_year: int = 2024, dry_run: bool = False):
         self.orcid_id = orcid_id
+        self.min_year = min_year
+        self.dry_run = dry_run
         self.session = requests.Session()
         self.session.headers.update({
             'Accept': 'application/vnd.orcid+json',
@@ -68,6 +74,96 @@ class ORCIDPublicationManager:
             logging.error(f"Failed to fetch work details for {put_code}: {e}")
             return None
     
+    def generate_agu_citation(self, work_detail: Dict, title: str, venue: str, pub_date: str, doi: str) -> str:
+        """Generate simple AGU-style citation"""
+        try:
+            # Extract authors from contributors
+            authors = []
+            if work_detail.get('contributors') and work_detail['contributors'].get('contributor'):
+                for contributor in work_detail['contributors']['contributor']:
+                    if contributor.get('credit-name') and contributor['credit-name'].get('value'):
+                        name = contributor['credit-name']['value']
+                        # Convert to Last, F. M. format
+                        authors.append(self.format_author_name(name))
+            
+            # If no contributors, try to extract from any citation
+            if not authors and work_detail.get('citation'):
+                authors = self.extract_authors_from_citation(work_detail['citation'].get('citation-value', ''))
+            
+            # Build AGU-style citation: Authors (Year), Title, Journal, doi
+            parts = []
+            
+            # Authors
+            if authors:
+                if len(authors) == 1:
+                    author_str = authors[0]
+                elif len(authors) == 2:
+                    author_str = f"{authors[0]} and {authors[1]}"
+                elif len(authors) <= 5:
+                    author_str = ", ".join(authors[:-1]) + f", and {authors[-1]}"
+                else:
+                    author_str = f"{authors[0]} et al."
+                parts.append(author_str)
+            
+            # Year
+            year = pub_date[:4] if pub_date else ""
+            if year:
+                parts.append(f"({year})")
+            
+            # Title (no quotes for AGU style)
+            if title:
+                parts.append(title)
+            
+            # Journal
+            if venue:
+                parts.append(venue)
+            
+            # DOI
+            if doi:
+                parts.append(f"https://doi.org/{doi}")
+            
+            return ", ".join(parts) + "."
+            
+        except Exception as e:
+            logging.warning(f"Failed to generate AGU citation: {e}")
+            return f"{title} ({pub_date[:4] if pub_date else 'n.d.'}), {venue}."
+    
+    def format_author_name(self, full_name: str) -> str:
+        """Convert full name to Last, F. M. format"""
+        try:
+            parts = full_name.strip().split()
+            if len(parts) < 2:
+                return full_name
+            
+            # Last name is typically the last part
+            last_name = parts[-1]
+            first_names = parts[:-1]
+            
+            # Create initials
+            initials = []
+            for name in first_names:
+                if name and len(name) > 0:
+                    initials.append(f"{name[0]}.")
+            
+            return f"{last_name}, {' '.join(initials)}"
+        except:
+            return full_name
+    
+    def extract_authors_from_citation(self, citation: str) -> list:
+        """Extract author names from citation string"""
+        try:
+            if citation.startswith('@'):
+                # BibTeX format
+                author_match = re.search(r'author\s*=\s*\{([^}]+)\}', citation)
+                if author_match:
+                    authors_str = author_match.group(1)
+                    # Split by 'and' and clean up
+                    authors = [a.strip() for a in re.split(r'\s+and\s+', authors_str)]
+                    return [self.format_author_name(a) for a in authors[:5]]  # Max 5 authors
+            return []
+        except:
+            return []
+
     def extract_publication_info(self, work_detail: Dict) -> Dict:
         """Extract relevant publication information from ORCID work detail"""
         if not work_detail:
@@ -77,7 +173,7 @@ class ORCIDPublicationManager:
         title = ""
         if work_detail.get('title') and work_detail['title'].get('title'):
             title = work_detail['title']['title']['value']
-        
+
         # Extract journal/venue
         venue = ""
         if work_detail.get('journal-title') and work_detail['journal-title'].get('value'):
@@ -106,12 +202,8 @@ class ORCIDPublicationManager:
                     if not paper_url:
                         paper_url = ext_id.get('external-id-value', '')
         
-        # Extract citation
-        citation = ""
-        if work_detail.get('citation') and work_detail['citation'].get('citation-value'):
-            citation = work_detail['citation']['citation-value']
-            # Fix Liquid syntax issues by removing double braces in publisher names
-            citation = re.sub(r'\{\{([^}]+)\}\}', r'{\1}', citation)
+        # Generate simple AGU-style citation
+        citation = self.generate_agu_citation(work_detail, title, venue, pub_date, doi)
         
         # Create filename-safe permalink
         year = pub_date[:4] if pub_date else "unknown"
@@ -197,12 +289,28 @@ class ORCIDPublicationManager:
             logging.warning("Skipping publication without title")
             return
         
+        # Generate filename
+        filename = f"{pub_info['permalink']}.md"
+        
+        # Simple year filter - extract year from filename
+        year_match = re.match(r'^(\d{4})-', filename)
+        if year_match:
+            file_year = int(year_match.group(1))
+            if file_year < self.min_year:
+                if self.dry_run:
+                    logging.info(f"[DRY RUN] Skipping {filename} (year {file_year} < {self.min_year})")
+                else:
+                    logging.info(f"Skipping {filename} (year {file_year} < {self.min_year})")
+                return
+        
+        if self.dry_run:
+            logging.info(f"[DRY RUN] Would create: {filename}")
+            return
+        
         # Create publications directory if it doesn't exist
         pub_dir = Path(PUBLICATIONS_DIR)
         pub_dir.mkdir(exist_ok=True)
         
-        # Generate filename
-        filename = f"{pub_info['permalink']}.md"
         filepath = pub_dir / filename
         
         # Skip if file already exists
@@ -295,7 +403,8 @@ class ORCIDPublicationManager:
             
             # Extract publication information
             pub_info = self.extract_publication_info(work_detail)
-            if not pub_info.get('title'):
+            if not pub_info or not pub_info.get('title'):
+                # Skip if filtered out by year or missing title
                 continue
             
             # Cache the publication info
@@ -328,7 +437,29 @@ class ORCIDPublicationManager:
 
 def main():
     """Main entry point"""
-    manager = ORCIDPublicationManager(ORCID_ID)
+    import sys
+    
+    # Parse arguments
+    min_year = 2024  # Default to 2024+
+    dry_run = False
+    
+    for arg in sys.argv[1:]:
+        if arg == "--dry-run":
+            dry_run = True
+        elif arg.isdigit():
+            min_year = int(arg)
+        elif arg == "--help":
+            print("Usage: python orcid_publications_manager.py [YEAR] [--dry-run]")
+            print("  YEAR: Minimum year to process (default: 2024)")
+            print("  --dry-run: Show what would be created without actually creating files")
+            return
+    
+    if dry_run:
+        print(f"[DRY RUN] Would process publications from {min_year} onwards...")
+    else:
+        print(f"Processing publications from {min_year} onwards...")
+    
+    manager = ORCIDPublicationManager(ORCID_ID, min_year=min_year, dry_run=dry_run)
     manager.sync_publications()
 
 
