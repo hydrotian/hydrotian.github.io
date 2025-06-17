@@ -51,6 +51,10 @@
     background-color: #0d1117 !important;
   }
 
+  .masthead__menu {
+    background-color: #0d1117 !important;
+  }
+
   .site-title,
   .masthead__menu-item a {
     color: #f0f6fc !important;
@@ -58,6 +62,30 @@
 
   .masthead__menu-item a:hover {
     color: #58a6ff !important;
+  }
+
+  /* Fix any remaining white backgrounds in header area */
+  .page__hero,
+  .page__hero--overlay {
+    background-color: #0d1117 !important;
+  }
+
+  /* Make sure all navigation elements are dark */
+  .greedy-nav {
+    background-color: #0d1117 !important;
+  }
+
+  .greedy-nav a {
+    color: #f0f6fc !important;
+  }
+
+  .greedy-nav a:hover {
+    color: #58a6ff !important;
+  }
+
+  /* Hidden navigation button */
+  .greedy-nav__toggle {
+    color: #f0f6fc !important;
   }
 
   /* Sidebar */
