@@ -110,6 +110,8 @@ class ORCIDPublicationManager:
         citation = ""
         if work_detail.get('citation') and work_detail['citation'].get('citation-value'):
             citation = work_detail['citation']['citation-value']
+            # Fix Liquid syntax issues by removing double braces in publisher names
+            citation = re.sub(r'\{\{([^}]+)\}\}', r'{\1}', citation)
         
         # Create filename-safe permalink
         year = pub_date[:4] if pub_date else "unknown"
