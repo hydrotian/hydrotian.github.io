@@ -9,6 +9,54 @@
     color: #e0e0e0 !important;
   }
 
+  /* AGGRESSIVE NAVIGATION FIX - Target exact structure */
+  div.masthead {
+    background: #0d1117 !important;
+    background-color: #0d1117 !important;
+  }
+  
+  div.masthead div.masthead__inner-wrap {
+    background: #0d1117 !important;
+    background-color: #0d1117 !important;
+  }
+  
+  div.masthead div.masthead__inner-wrap div.masthead__menu {
+    background: #0d1117 !important;
+    background-color: #0d1117 !important;
+  }
+  
+  div.masthead div.masthead__inner-wrap div.masthead__menu nav.greedy-nav {
+    background: #0d1117 !important;
+    background-color: #0d1117 !important;
+  }
+  
+  div.masthead ul.visible-links {
+    background: #0d1117 !important;
+    background-color: #0d1117 !important;
+  }
+  
+  /* Navigation text colors - specific targeting */
+  div.masthead li.masthead__menu-item a {
+    color: #e6edf3 !important;
+    background: transparent !important;
+  }
+  
+  div.masthead li.masthead__menu-item a:hover {
+    color: #58a6ff !important;
+    background: transparent !important;
+  }
+  
+  /* Even more specific - target any white backgrounds */
+  .masthead [style*="background-color: white"],
+  .masthead [style*="background-color: #fff"],
+  .masthead [style*="background-color: #ffffff"],
+  .masthead [style*="background: white"],
+  .masthead [style*="background: #fff"],
+  .masthead [style*="background: #ffffff"] {
+    background: #0d1117 !important;
+    background-color: #0d1117 !important;
+  }
+
   /* Main content areas */
   .page,
   .page__content,
