@@ -7,6 +7,10 @@ redirect_from:
   - /home/
   - /home.html
 ---
+### Sep 2025
+- Had a great E3SM all-hands meeting in DC area. I presented some results from ongoing developments in E3SM such as MOSART bifurcation, IBT, and MOSART-GCAM.
+- A number of papers published or accepted, including another [IRRMIP paper](https://www.nature.com/articles/s44221-025-00529-1) led by Yi published on Nature Water, and a E3SM v3 paper on [JAMES](https://essopenarchive.org/doi/full/10.22541/essoar.175097464.44666291).
+
 ### Feb 2025
 - Yi Yao's [first IRRMIP paper](https://www.nature.com/articles/s41467-025-56356-1) published on Nature Communications.
 - Attended the E3SM all-hands meeting in Denver.
