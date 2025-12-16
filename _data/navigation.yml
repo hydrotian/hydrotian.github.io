@@ -13,8 +13,6 @@ main:
   - title: "Technical Blog"
     url: /notebook/
 
-  - title: "GooRAG"
-    url: https://goorag.onrender.com/
 
 #  - title: "Presentations"
 #    url: /talks/ 
