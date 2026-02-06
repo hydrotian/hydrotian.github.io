@@ -11,7 +11,10 @@ main:
     url: /cv/
 
   - title: "Technical Blog"
-    url: /notebook/
+    url: https://notebook.simhydro.com
+
+  - title: "HydroSense"
+    url: https://hydrosense.simhydro.com
 
 
 #  - title: "Presentations"
