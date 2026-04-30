@@ -9,6 +9,7 @@ Author: Tian Zhou
 ORCID: 0000-0003-1582-4005
 """
 
+import html
 import json
 import re
 from datetime import datetime
@@ -74,22 +75,94 @@ class ORCIDPublicationManager:
             logging.error(f"Failed to fetch work details for {put_code}: {e}")
             return None
     
+    def fetch_crossref(self, doi: str) -> Dict:
+        """Fetch Crossref metadata for a DOI. Returns the 'message' dict or {}."""
+        if not doi:
+            return {}
+        try:
+            r = self.session.get(
+                f"https://api.crossref.org/works/{doi}",
+                timeout=15,
+                headers={"User-Agent": "hydrotian-jekyll/1.0 (mailto:hydro.tian@gmail.com)"},
+            )
+            if r.status_code != 200:
+                return {}
+            return r.json().get("message", {}) or {}
+        except (requests.RequestException, ValueError):
+            return {}
+
+    def crossref_description(self, msg: Dict) -> str:
+        """Extract a 1-2 sentence plain-language description from a Crossref abstract."""
+        abstract = msg.get("abstract", "") if msg else ""
+        if not abstract:
+            return ""
+        s = re.sub(r"<jats:title[^>]*>.*?</jats:title>", "", abstract, flags=re.S | re.I)
+        s = re.sub(r"<[^>]+>", "", s)
+        s = html.unescape(html.unescape(s))
+        s = re.sub(r"\s+", " ", s).strip()
+        if s.lower().startswith("abstract."):
+            s = s[len("abstract."):].strip()
+        elif s.lower().startswith("abstract"):
+            s = s[len("abstract"):].lstrip(" .:").strip()
+        # First 1-2 sentences, capped at ~350 chars
+        parts = re.split(r"(?<=[.!?])\s+", s)
+        out = ""
+        for p in parts:
+            if not out:
+                out = p
+            elif len(out) + 1 + len(p) <= 350:
+                out = f"{out} {p}"
+            else:
+                break
+        return out
+
+    def crossref_authors(self, msg: Dict) -> str:
+        arr = (msg or {}).get("author") or []
+        names = []
+        for a in arr:
+            family = (a.get("family") or "").strip()
+            given = (a.get("given") or "").strip()
+            if not family:
+                continue
+            initials = " ".join(f"{p[0]}." for p in given.split() if p)
+            names.append(f"{family}, {initials}".strip().rstrip(","))
+        if not names:
+            return ""
+        if len(names) <= 5:
+            return ", ".join(names)
+        return ", ".join(names[:5]) + ", et al."
+
+    def venue_from_doi(self, doi: str) -> str:
+        d = (doi or "").lower()
+        if d.startswith("10.5194/egusphere"):
+            return "EGUsphere (preprint)"
+        if d.startswith("10.5194/"):
+            return "Copernicus (preprint)"
+        if d.startswith("10.21203/"):
+            return "Research Square (preprint)"
+        if d.startswith("10.22541/essoar") or d.startswith("10.1002/essoar"):
+            return "ESS Open Archive (preprint)"
+        if "arxiv" in d:
+            return "arXiv"
+        return ""
+
+    def extract_authors(self, work_detail: Dict) -> list:
+        """Extract a list of author names (Last, F. M.) from a work detail record."""
+        authors = []
+        if work_detail.get('contributors') and work_detail['contributors'].get('contributor'):
+            for contributor in work_detail['contributors']['contributor']:
+                if contributor.get('credit-name') and contributor['credit-name'].get('value'):
+                    name = contributor['credit-name']['value']
+                    authors.append(self.format_author_name(name))
+        if not authors and work_detail.get('citation'):
+            authors = self.extract_authors_from_citation(work_detail['citation'].get('citation-value', ''))
+        return authors
+
     def generate_agu_citation(self, work_detail: Dict, title: str, venue: str, pub_date: str, doi: str) -> str:
         """Generate simple AGU-style citation"""
         try:
-            # Extract authors from contributors
-            authors = []
-            if work_detail.get('contributors') and work_detail['contributors'].get('contributor'):
-                for contributor in work_detail['contributors']['contributor']:
-                    if contributor.get('credit-name') and contributor['credit-name'].get('value'):
-                        name = contributor['credit-name']['value']
-                        # Convert to Last, F. M. format
-                        authors.append(self.format_author_name(name))
-            
-            # If no contributors, try to extract from any citation
-            if not authors and work_detail.get('citation'):
-                authors = self.extract_authors_from_citation(work_detail['citation'].get('citation-value', ''))
-            
+            authors = self.extract_authors(work_detail)
+
             # Build AGU-style citation: Authors (Year), Title, Journal, doi
             parts = []
             
@@ -202,8 +275,28 @@ class ORCIDPublicationManager:
                     if not paper_url:
                         paper_url = ext_id.get('external-id-value', '')
         
-        # Generate simple AGU-style citation
+        # Generate simple AGU-style citation and extract author list
         citation = self.generate_agu_citation(work_detail, title, venue, pub_date, doi)
+
+        # Enrich with Crossref: prefer authoritative authors, abstract-derived description, container venue
+        cr = self.fetch_crossref(doi)
+        cr_authors = self.crossref_authors(cr)
+        cr_desc = self.crossref_description(cr)
+        if not venue:
+            ct = cr.get("container-title") or []
+            if ct:
+                venue = ct[0]
+        if not venue:
+            venue = self.venue_from_doi(doi)
+
+        if cr_authors:
+            authors_str = cr_authors
+        else:
+            authors = self.extract_authors(work_detail)
+            if len(authors) <= 5:
+                authors_str = ", ".join(authors)
+            else:
+                authors_str = ", ".join(authors[:5]) + ", et al."
         
         # Create filename-safe permalink
         year = pub_date[:4] if pub_date else "unknown"
@@ -218,6 +311,8 @@ class ORCIDPublicationManager:
             'doi': doi,
             'paper_url': paper_url,
             'citation': citation,
+            'authors': authors_str,
+            'crossref_description': cr_desc,
             'permalink': permalink,
             'put_code': work_detail.get('put-code'),
             'work_type': work_detail.get('type', 'journal-article')
@@ -327,8 +422,8 @@ class ORCIDPublicationManager:
             logging.info(f"Publication already exists: {filename}")
             return
         
-        # Generate description
-        description = self.generate_publication_description(pub_info)
+        # Prefer the Crossref-derived plain-language description if we have one
+        description = pub_info.get('crossref_description') or self.generate_publication_description(pub_info)
         
         # Map ORCID work-type to a simple category used by the publications page
         work_type = pub_info.get('work_type', 'journal-article')
@@ -343,25 +438,25 @@ class ORCIDPublicationManager:
             'date': pub_info.get('date', datetime.now().strftime('%Y-%m-%d')),
             'venue': pub_info.get('venue', ''),
             'paperurl': pub_info.get('paper_url', ''),
-            'citation': pub_info.get('citation', ''),
+            'authors': pub_info.get('authors', ''),
             'pubtype': pubtype,
             'comments': True  # Enable comments on publication pages
         }
-        
-        # Create content
+
+        # Create content: short description, authors, DOI link, optional figure
         content = f"---\n{yaml.dump(frontmatter, default_flow_style=False, allow_unicode=True)}---\n"
         content += f"{description}\n\n"
-        
+
+        if pub_info.get('authors'):
+            content += f"**Authors:** {pub_info['authors']}\n\n"
+
         if pub_info.get('paper_url'):
-            content += f"[Link to the paper]({pub_info['paper_url']})\n\n"
-        
-        # Add placeholder for image
+            label = pub_info['doi'] if pub_info.get('doi') else pub_info['paper_url']
+            content += f"**DOI:** [{label}]({pub_info['paper_url']})\n\n"
+
         image_filename = f"{pub_info['permalink']}.png"
-        content += f"<!-- Add publication image below -->\n"
-        content += f"<!-- ![image](/{IMAGES_DIR}/{image_filename}) -->\n\n"
-        
-        if pub_info.get('citation'):
-            content += f"Recommended citation: {pub_info['citation']}"
+        content += f"<!-- Drop a figure into /{IMAGES_DIR}/{image_filename} and uncomment: -->\n"
+        content += f"<!-- ![figure](/{IMAGES_DIR}/{image_filename}) -->\n"
         
         # Write file
         try:

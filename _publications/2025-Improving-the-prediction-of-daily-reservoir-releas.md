@@ -1,12 +1,10 @@
 ---
-citation: Tran, H., Zhou, T., Tan, Z., Fang, Y., and Leung, L. R., (2025), Improving
-  the prediction of daily reservoir releases over the CONUS using conditioned LSTM,
-  Journal of Hydrology, https://doi.org/10.1016/j.jhydrol.2025.133750.
+authors: Tran, H., Zhou, T., Tan, Z., Fang, Y., Ruby Leung, L.
 collection: publications
 comments: true
 date: '2025-11-01'
-excerpt: This research paper published in Journal of Hydrology contributes to our
-  understanding of Earth system processes.
+excerpt: Trains a conditioned LSTM to predict daily reservoir releases across the
+  contiguous United States, improving on operational baselines.
 paperurl: https://doi.org/10.1016/j.jhydrol.2025.133750
 permalink: /publication/2025-Improving-the-prediction-of-daily-reservoir-releas
 pubtype: journal-article
@@ -14,11 +12,11 @@ title: Improving the prediction of daily reservoir releases over the CONUS using
   LSTM
 venue: Journal of Hydrology
 ---
-This research paper published in Journal of Hydrology contributes to our understanding of Earth system processes.
+Trains a conditioned LSTM to predict daily reservoir releases across the contiguous United States, improving on operational baselines.
 
-[Link to the paper](https://doi.org/10.1016/j.jhydrol.2025.133750)
+**Authors:** Tran, H., Zhou, T., Tan, Z., Fang, Y., Ruby Leung, L.
 
-<!-- Add publication image below -->
-<!-- ![image](/images/papers/2025-Improving-the-prediction-of-daily-reservoir-releas.png) -->
+**DOI:** [10.1016/j.jhydrol.2025.133750](https://doi.org/10.1016/j.jhydrol.2025.133750)
 
-Recommended citation: Tran, H., Zhou, T., Tan, Z., Fang, Y., and Leung, L. R., (2025), Improving the prediction of daily reservoir releases over the CONUS using conditioned LSTM, Journal of Hydrology, https://doi.org/10.1016/j.jhydrol.2025.133750.
+<!-- Drop a figure into /images/papers/2025-Improving-the-prediction-of-daily-reservoir-releas.png and uncomment: -->
+<!-- ![figure](/images/papers/2025-Improving-the-prediction-of-daily-reservoir-releas.png) -->

@@ -1,29 +1,24 @@
 ---
-citation: ' @article{Xu_2024, title={Climate change will reduce North American inland
-  wetland areas and disrupt their seasonal regimes}, volume={15}, ISSN={2041-1723},
-  url={http://dx.doi.org/10.1038/s41467-024-45286-z}, DOI={10.1038/s41467-024-45286-z},
-  number={1}, journal={Nature Communications}, publisher={Springer Science and Business
-  Media LLC}, author={Xu, Donghui and Bisht, Gautam and Tan, Zeli and Sinha, Eva and
-  Di Vittorio, Alan V. and Zhou, Tian and Ivanov, Valeriy Y. and Leung, L. Ruby},
-  year={2024}, month=mar }
-
-  '
+authors: Xu, D., Bisht, G., Tan, Z., Sinha, E., Di Vittorio, A. V., et al.
 collection: publications
 comments: true
 date: '2024-03-18'
-excerpt: This research paper published in Nature Communications focuses on water resources
-  and climate modeling.
+excerpt: Climate change can alter wetland extent and function, but such impacts are
+  perplexing. Here, changes in wetland characteristics over North America from 25°
+  to 53° North are projected under two climate scenarios using a state-of-the-science
+  Earth system model.
 paperurl: https://doi.org/10.1038/s41467-024-45286-z
 permalink: /publication/2024-Climate-change-will-reduce-North-American-inland-w
+pubtype: journal-article
 title: Climate change will reduce North American inland wetland areas and disrupt
   their seasonal regimes
 venue: Nature Communications
 ---
-This research paper published in Nature Communications focuses on water resources and climate modeling.
+Climate change can alter wetland extent and function, but such impacts are perplexing. Here, changes in wetland characteristics over North America from 25° to 53° North are projected under two climate scenarios using a state-of-the-science Earth system model.
 
-[Link to the paper](https://doi.org/10.1038/s41467-024-45286-z)
+**Authors:** Xu, D., Bisht, G., Tan, Z., Sinha, E., Di Vittorio, A. V., et al.
 
-<!-- Add publication image below -->
-<!-- ![image](/images/papers/2024-Climate-change-will-reduce-North-American-inland-w.png) -->
+**DOI:** [10.1038/s41467-024-45286-z](https://doi.org/10.1038/s41467-024-45286-z)
 
-Recommended citation:  @article{Xu_2024, title={Climate change will reduce North American inland wetland areas and disrupt their seasonal regimes}, volume={15}, ISSN={2041-1723}, url={http://dx.doi.org/10.1038/s41467-024-45286-z}, DOI={10.1038/s41467-024-45286-z}, number={1}, journal={Nature Communications}, publisher={Springer Science and Business Media LLC}, author={Xu, Donghui and Bisht, Gautam and Tan, Zeli and Sinha, Eva and Di Vittorio, Alan V. and Zhou, Tian and Ivanov, Valeriy Y. and Leung, L. Ruby}, year={2024}, month=mar }
+<!-- Drop a figure into /images/papers/2024-Climate-change-will-reduce-North-American-inland-w.png and uncomment: -->
+<!-- ![figure](/images/papers/2024-Climate-change-will-reduce-North-American-inland-w.png) -->

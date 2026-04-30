@@ -1,21 +1,22 @@
 ---
-citation: Li, H. et al., (2025), A new Dataset for Belowground Urban Stormwater Networks
-  over the U.S., https://doi.org/10.5194/egusphere-egu24-14536.
+authors: Li, H., Eriget, S., Chegini, T., Bisht, G., Engwirda, D., et al.
 collection: publications
 comments: true
 date: '2025-01-20'
-excerpt: This research paper preprint focuses on water resources and climate modeling.
+excerpt: Belowground urban stormwater network (BUSN) data are usually not available
+  to the public at the regional or national scales, hindering predictive understanding
+  of BUSN’s impacts on urban flooding under extreme climates.
 paperurl: https://doi.org/10.5194/egusphere-egu24-14536
 permalink: /publication/2025-A-new-Dataset-for-Belowground-Urban-Stormwater-Net
 pubtype: preprint
 title: A new Dataset for Belowground Urban Stormwater Networks over the U.S.
-venue: ''
+venue: EGUsphere (preprint)
 ---
-This research paper preprint focuses on water resources and climate modeling.
+Belowground urban stormwater network (BUSN) data are usually not available to the public at the regional or national scales, hindering predictive understanding of BUSN’s impacts on urban flooding under extreme climates.
 
-[Link to the paper](https://doi.org/10.5194/egusphere-egu24-14536)
+**Authors:** Li, H., Eriget, S., Chegini, T., Bisht, G., Engwirda, D., et al.
 
-<!-- Add publication image below -->
-<!-- ![image](/images/papers/2025-A-new-Dataset-for-Belowground-Urban-Stormwater-Net.png) -->
+**DOI:** [10.5194/egusphere-egu24-14536](https://doi.org/10.5194/egusphere-egu24-14536)
 
-Recommended citation: Li, H. et al., (2025), A new Dataset for Belowground Urban Stormwater Networks over the U.S., https://doi.org/10.5194/egusphere-egu24-14536.
+<!-- Drop a figure into /images/papers/2025-A-new-Dataset-for-Belowground-Urban-Stormwater-Net.png and uncomment: -->
+<!-- ![figure](/images/papers/2025-A-new-Dataset-for-Belowground-Urban-Stormwater-Net.png) -->

@@ -1,22 +1,22 @@
 ---
-citation: Solander, K., Zhou, T., Bennett, K., and Schwenk, J., (2025), Evaluation
-  of CMIP6 streamflow in the Arctic, Journal of Hydrometeorology, https://doi.org/10.1175/jhm-d-24-0124.1.
+authors: Solander, K. C., Zhou, T., Bennett, K. E., Schwenk, J.
 collection: publications
 comments: true
 date: '2025-08-01'
-excerpt: This research analysis published in Journal of Hydrometeorology contributes
-  to our understanding of Earth system processes.
+excerpt: Earth system models (ESMs) serve as the primary basis for projecting future
+  streamflow changes, but they are biased in terms of the their ability to reproduce
+  historical observations of streamflow.
 paperurl: https://doi.org/10.1175/jhm-d-24-0124.1
 permalink: /publication/2025-Evaluation-of-CMIP6-streamflow-in-the-Arctic
 pubtype: journal-article
 title: Evaluation of CMIP6 streamflow in the Arctic
 venue: Journal of Hydrometeorology
 ---
-This research analysis published in Journal of Hydrometeorology contributes to our understanding of Earth system processes.
+Earth system models (ESMs) serve as the primary basis for projecting future streamflow changes, but they are biased in terms of the their ability to reproduce historical observations of streamflow.
 
-[Link to the paper](https://doi.org/10.1175/jhm-d-24-0124.1)
+**Authors:** Solander, K. C., Zhou, T., Bennett, K. E., Schwenk, J.
 
-<!-- Add publication image below -->
-<!-- ![image](/images/papers/2025-Evaluation-of-CMIP6-streamflow-in-the-Arctic.png) -->
+**DOI:** [10.1175/jhm-d-24-0124.1](https://doi.org/10.1175/jhm-d-24-0124.1)
 
-Recommended citation: Solander, K., Zhou, T., Bennett, K., and Schwenk, J., (2025), Evaluation of CMIP6 streamflow in the Arctic, Journal of Hydrometeorology, https://doi.org/10.1175/jhm-d-24-0124.1.
+<!-- Drop a figure into /images/papers/2025-Evaluation-of-CMIP6-streamflow-in-the-Arctic.png and uncomment: -->
+<!-- ![figure](/images/papers/2025-Evaluation-of-CMIP6-streamflow-in-the-Arctic.png) -->

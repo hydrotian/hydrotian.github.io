@@ -1,11 +1,12 @@
 ---
-citation: (2025), Evaluation of Flow Routing on the Unstructured Voronoi Meshes in
-  Earth System Modeling, JOURNAL OF ADVANCES IN MODELING EARTH SYSTEMS, https://doi.org/10.1029/2024MS004737.
+authors: Liao, C., Xu, D., Cooper, M. G., Zhou, T., Engwirda, D., et al.
 collection: publications
 comments: true
 date: '2025-01-01'
-excerpt: This modeling study published in JOURNAL OF ADVANCES IN MODELING EARTH SYSTEMS
-  presents computational modeling and simulation results.
+excerpt: Flow routing is a fundamental process of Earth System Models' (ESMs) river
+  component. Traditional flow routing models rely on Cartesian rectangular meshes,
+  which exhibit limitations, particularly when coupled with unstructured mesh‐based
+  ocean components. They also lack the support for regionally refined models.
 paperurl: https://doi.org/10.1029/2024MS004737
 permalink: /publication/2025-Evaluation-of-Flow-Routing-on-the-Unstructured-Vor
 pubtype: journal-article
@@ -13,11 +14,11 @@ title: Evaluation of Flow Routing on the Unstructured Voronoi Meshes in Earth Sy
   Modeling
 venue: JOURNAL OF ADVANCES IN MODELING EARTH SYSTEMS
 ---
-This modeling study published in JOURNAL OF ADVANCES IN MODELING EARTH SYSTEMS presents computational modeling and simulation results.
+Flow routing is a fundamental process of Earth System Models' (ESMs) river component. Traditional flow routing models rely on Cartesian rectangular meshes, which exhibit limitations, particularly when coupled with unstructured mesh‐based ocean components. They also lack the support for regionally refined models.
 
-[Link to the paper](https://doi.org/10.1029/2024MS004737)
+**Authors:** Liao, C., Xu, D., Cooper, M. G., Zhou, T., Engwirda, D., et al.
 
-<!-- Add publication image below -->
-<!-- ![image](/images/papers/2025-Evaluation-of-Flow-Routing-on-the-Unstructured-Vor.png) -->
+**DOI:** [10.1029/2024MS004737](https://doi.org/10.1029/2024MS004737)
 
-Recommended citation: (2025), Evaluation of Flow Routing on the Unstructured Voronoi Meshes in Earth System Modeling, JOURNAL OF ADVANCES IN MODELING EARTH SYSTEMS, https://doi.org/10.1029/2024MS004737.
+<!-- Drop a figure into /images/papers/2025-Evaluation-of-Flow-Routing-on-the-Unstructured-Vor.png and uncomment: -->
+<!-- ![figure](/images/papers/2025-Evaluation-of-Flow-Routing-on-the-Unstructured-Vor.png) -->

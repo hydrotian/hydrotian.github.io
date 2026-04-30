@@ -1,24 +1,24 @@
 ---
-citation: Zhou, T., Qian, Y., and Leung, L. R., (2026), Can We Trust LLMs for Complex
-  Earth System Model Analysis? Silent Failure and Evidence from Module-Grounded Benchmarking,
-  https://doi.org/10.5194/egusphere-2026-2237.
+authors: Zhou, T., Qian, Y., Leung, L. R.
 collection: publications
 comments: true
 date: '2026-04-27'
-excerpt: This modeling study preprint presents computational modeling and simulation
-  results.
+excerpt: 'Large language models (LLMs) are becoming increasingly capable of complex
+  scientific scripting, but this growing robustness creates a paradox: the more trustworthy
+  their outputs appear, the more easily scientifically incorrect results can pass
+  unnoticed.'
 paperurl: https://doi.org/10.5194/egusphere-2026-2237
 permalink: /publication/2026-Can-We-Trust-LLMs-for-Complex-Earth-System-Model-A
 pubtype: preprint
 title: Can We Trust LLMs for Complex Earth System Model Analysis? Silent Failure and
   Evidence from Module-Grounded Benchmarking
-venue: ''
+venue: EGUsphere (preprint)
 ---
-This modeling study preprint presents computational modeling and simulation results.
+Large language models (LLMs) are becoming increasingly capable of complex scientific scripting, but this growing robustness creates a paradox: the more trustworthy their outputs appear, the more easily scientifically incorrect results can pass unnoticed.
 
-[Link to the paper](https://doi.org/10.5194/egusphere-2026-2237)
+**Authors:** Zhou, T., Qian, Y., Leung, L. R.
 
-<!-- Add publication image below -->
-<!-- ![image](/images/papers/2026-Can-We-Trust-LLMs-for-Complex-Earth-System-Model-A.png) -->
+**DOI:** [10.5194/egusphere-2026-2237](https://doi.org/10.5194/egusphere-2026-2237)
 
-Recommended citation: Zhou, T., Qian, Y., and Leung, L. R., (2026), Can We Trust LLMs for Complex Earth System Model Analysis? Silent Failure and Evidence from Module-Grounded Benchmarking, https://doi.org/10.5194/egusphere-2026-2237.
+<!-- Drop a figure into /images/papers/2026-Can-We-Trust-LLMs-for-Complex-Earth-System-Model-A.png and uncomment: -->
+<!-- ![figure](/images/papers/2026-Can-We-Trust-LLMs-for-Complex-Earth-System-Model-A.png) -->

@@ -1,21 +1,23 @@
 ---
-citation: 'Thurber et al., (2024). wmpy-power: A Python package for process-based regional hydropower simulation. Journal of Open Source Software, 9(103), 7225, https://doi.org/10.21105/joss.07225'
+authors: Thurber, T. B., Broman, D., Zhou, T., Voisin, N.
 collection: publications
 comments: true
 date: '2024-11-08'
-excerpt: This modeling study published in Journal of Open Source Software focuses
-  on water resources and climate modeling.
+excerpt: Introduces wmpy-power, a Python package for process-based regional hydropower
+  simulation that supports reproducible reservoir and generation modeling at scale.
 paperurl: https://doi.org/10.21105/joss.07225
 permalink: /publication/2024-wmpy-power-A-Python-package-for-process-based-regi
+pubtype: journal-article
 title: 'wmpy-power: A Python package for process-based regional
 
   hydropower simulation'
 venue: Journal of Open Source Software
 ---
-This modeling study published in Journal of Open Source Software focuses on water resources and climate modeling.
+Introduces wmpy-power, a Python package for process-based regional hydropower simulation that supports reproducible reservoir and generation modeling at scale.
 
-[Link to the paper](https://doi.org/10.21105/joss.07225)
+**Authors:** Thurber, T. B., Broman, D., Zhou, T., Voisin, N.
 
-<!-- Add publication image below -->
-<!-- ![image](/images/papers/2024-wmpy-power-A-Python-package-for-process-based-regi.png) -->
+**DOI:** [10.21105/joss.07225](https://doi.org/10.21105/joss.07225)
 
+<!-- Drop a figure into /images/papers/2024-wmpy-power-A-Python-package-for-process-based-regi.png and uncomment: -->
+<!-- ![figure](/images/papers/2024-wmpy-power-A-Python-package-for-process-based-regi.png) -->
