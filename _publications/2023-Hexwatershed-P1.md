@@ -1,18 +1,22 @@
 ---
-title: "Topological Relationship-Based Flow Direction Modeling: Mesh-Independent River Networks Representation"
+authors: Liao, C., Zhou, T., Xu, D., Cooper, M. G., Engwirda, D., et al.
 collection: publications
-permalink: /publication/2023-Hexwatershed-P1
-excerpt: 'This paper introduces pyFlowline, a tool to construct major river networks on different mesh configurations. This is the first part of a two-part study of building a comprehensive river network over any mesh provided'
+comments: true
 date: 2023-01-03
-venue: 'Journal of Advances in Modeling Earth Systems'
-paperurl: 'https://doi.org/10.1029/2022ms003089 '
-citation: 'Liao, C., Zhou, T., Xu, D., Cooper, M. G., Engwirda, D., Li, H. Y., &amp; Leung, L. R. (2023). Topological Relationship-Based Flow Direction Modeling: Mesh-Independent River Networks Representation. Journal of Advances in Modeling Earth Systems, 15(2). '
+excerpt: River networks are important features in surface hydrology. However, accurately
+  representing river networks in spatially distributed hydrologic and Earth system
+  models is often sensitive to the model's spatial resolution.
+paperurl: https://doi.org/10.1029/2022ms003089
+permalink: /publication/2023-Hexwatershed-P1
+pubtype: journal-article
+title: 'Topological Relationship-Based Flow Direction Modeling: Mesh-Independent River
+  Networks Representation'
+venue: Journal of Advances in Modeling Earth Systems
 ---
-This paper introduces pyFlowline, a tool to construct major river networks on different mesh configurations. This is the first part of a two-part study of building a comprehensive river network over any mesh provided
+River networks are important features in surface hydrology. However, accurately representing river networks in spatially distributed hydrologic and Earth system models is often sensitive to the model's spatial resolution.
 
-[Link to the paper](https://doi.org/10.1029/2022ms003089 )
+**Authors:** Liao, C., Zhou, T., Xu, D., Cooper, M. G., Engwirda, D., et al.
 
-![image](https://agupubs.onlinelibrary.wiley.com/cms/asset/11a00a84-61c1-493c-9230-67e6f6fc251c/jame21783-fig-0004-m.jpg)
-![image](https://agupubs.onlinelibrary.wiley.com/cms/asset/a6688cb4-34fa-4487-99d4-0666c3a51503/jame21783-fig-0010-m.jpg)
+**DOI:** [10.1029/2022ms003089](https://doi.org/10.1029/2022ms003089)
 
-Recommended citation: Liao, C., Zhou, T., Xu, D., Cooper, M. G., Engwirda, D., Li, H. Y., & Leung, L. R. (2023). Topological Relationship-Based Flow Direction Modeling: Mesh-Independent River Networks Representation. Journal of Advances in Modeling Earth Systems, 15(2). 
+![figure](https://agupubs.onlinelibrary.wiley.com/cms/asset/11a00a84-61c1-493c-9230-67e6f6fc251c/jame21783-fig-0004-m.jpg)

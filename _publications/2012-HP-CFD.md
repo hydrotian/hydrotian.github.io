@@ -1,17 +1,23 @@
 ---
-title: "Meander hydrodynamics initiated by river restoration deflectors"
+authors: Zhou, T., Endreny, T.
 collection: publications
-permalink: /publication/2012-HP-CFD
-excerpt: 'This study quantifies how river restoration structures change surface flow hydrodynamics'
+comments: true
 date: 2012-01-01
-venue: 'Hydrological Processes'
-paperurl: 'https://doi.org/10.1002/hyp.8352'
-citation: 'Zhou, T., &amp; Endreny, T. (2012). Meander hydrodynamics initiated by river restoration deflectors. Hydrological Processes, 26, 3378-3392.'
+excerpt: River restoration projects have installed j‐hook deflectors along the outer
+  bank of meander bends to reduce hydraulic erosion, and in this study we use a computational
+  fluid dynamics (CFD) model to document how these deflectors initiate changes in
+  meander hydrodynamics.
+paperurl: https://doi.org/10.1002/hyp.8352
+permalink: /publication/2012-HP-CFD
+pubtype: journal-article
+title: Meander hydrodynamics initiated by river restoration deflectors
+venue: Hydrological Processes
 ---
-This study quantifies how river restoration structures change surface flow hydrodynamics
+River restoration projects have installed j‐hook deflectors along the outer bank of meander bends to reduce hydraulic erosion, and in this study we use a computational fluid dynamics (CFD) model to document how these deflectors initiate changes in meander hydrodynamics.
 
-[Link to the paper](https://doi.org/10.1002/hyp.8352)
+**Authors:** Zhou, T., Endreny, T.
 
-![image](../images/papers/2012-HP-CFD.png)
+**DOI:** [10.1002/hyp.8352](https://doi.org/10.1002/hyp.8352)
 
-Recommended citation: Zhou, T., & Endreny, T. (2012). Meander hydrodynamics initiated by river restoration deflectors. Hydrological Processes, 26, 3378-3392.
+<!-- Drop a figure into /images/papers/2012-HP-CFD.png and uncomment: -->
+<!-- ![figure](/images/papers/2012-HP-CFD.png) -->

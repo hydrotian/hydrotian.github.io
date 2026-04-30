@@ -1,17 +1,25 @@
 ---
-title: "Flood Inundation Generation Mechanisms and Their Changes in 1953-2004 in Global Major River Basins."
+authors: Mao, Y., Zhou, T., Leung, L. R., Tesfa, T. K., Li, H., et al.
 collection: publications
-permalink: /publication/2019-JGR-Flood-Inundation
-excerpt: 'This paper used MOSART-inundation to investigate global flood characteristics and the shift of flood generating factors over 50 year period'
+comments: true
 date: 2019-01-03
+excerpt: Despite the serious threats posed by floods, the driving mechanisms of floods
+  are still not well understood. Here we apply a physically based inundation model
+  coupled with a river routing model (Model for Scale Adaptive River Transport (MOSART))
+  within the Energy Exascale Earth System Model (E3SM) framework to investigate flood
+  inundation dynamics.
+paperurl: https://doi.org/10.1029/2019JD031381
+permalink: /publication/2019-JGR-Flood-Inundation
+pubtype: journal-article
+title: Flood Inundation Generation Mechanisms and Their Changes in 1953-2004 in Global
+  Major River Basins.
 venue: 'Journal of Geophysics Research: Atmospheres '
-paperurl: 'https://doi.org/10.1029/2019JD031381'
-citation: 'Mao, Y., Zhou, T., Leung, L. R., Tesfa, T. K., Li, H. Y., Wang, K., Tan, Z., &amp; Getirana, A. (2019). Flood Inundation Generation Mechanisms and Their Changes in 1953-2004 in Global Major River Basins. Journal of Geophysical Research: Atmospheres.'
 ---
-This paper used MOSART-inundation to investigate global flood characteristics and the shift of flood generating factors over 50 year period
+Despite the serious threats posed by floods, the driving mechanisms of floods are still not well understood. Here we apply a physically based inundation model coupled with a river routing model (Model for Scale Adaptive River Transport (MOSART)) within the Energy Exascale Earth System Model (E3SM) framework to investigate flood inundation dynamics.
 
-[Link to the paper](https://doi.org/10.1029/2019JD031381)
+**Authors:** Mao, Y., Zhou, T., Leung, L. R., Tesfa, T. K., Li, H., et al.
 
-![image](../images/papers/2019-JGR-Flood-Inundation.png)
+**DOI:** [10.1029/2019JD031381](https://doi.org/10.1029/2019JD031381)
 
-Recommended citation: Mao, Y., Zhou, T., Leung, L. R., Tesfa, T. K., Li, H. Y., Wang, K., Tan, Z., & Getirana, A. (2019). Flood Inundation Generation Mechanisms and Their Changes in 1953-2004 in Global Major River Basins. Journal of Geophysical Research: Atmospheres.
+<!-- Drop a figure into /images/papers/2019-JGR-Flood-Inundation.png and uncomment: -->
+<!-- ![figure](/images/papers/2019-JGR-Flood-Inundation.png) -->

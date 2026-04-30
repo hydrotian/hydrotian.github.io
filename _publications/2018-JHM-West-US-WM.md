@@ -1,17 +1,25 @@
 ---
-title: "Sensitivity of regulated flow regime to climate change in the Western United States"
+authors: Zhou, T., Voisin, N., Leng, G., Huang, M., Kraucunas, I.
 collection: publications
-permalink: /publication/2018-JHM-West-US-WM
-excerpt: 'This paper compares the regulated flow and natural flow patterns in western U.S.'
+comments: true
 date: 2018-01-05
+excerpt: Water management activities modify water fluxes at the land surface and affect
+  water resources in space and time. Conventional understanding on the role of water
+  management suggests that regulated river flow would be less sensitive to future
+  climate conditions than natural flow in terms of the absolute changes in mean monthly
+  flows.
+paperurl: https://doi.org/10.1175/JHM-D-17-0095.1
+permalink: /publication/2018-JHM-West-US-WM
+pubtype: journal-article
+title: Sensitivity of regulated flow regime to climate change in the Western United
+  States
 venue: 'Journal of Hydrometeorology '
-paperurl: 'https://doi.org/10.1175/JHM-D-17-0095.1'
-citation: 'Zhou, T., Voisin, N., Leng, G., Huang, M., &amp; Kraucunas, I. (2018). Sensitivity of Regulated Flow Regimes to Climate Change in the Western United States. Journal of hydrometeorology, 19, 499-515.'
 ---
-This paper compares the regulated flow and natural flow patterns in western U.S.
+Water management activities modify water fluxes at the land surface and affect water resources in space and time. Conventional understanding on the role of water management suggests that regulated river flow would be less sensitive to future climate conditions than natural flow in terms of the absolute changes in mean monthly flows.
 
-[Link to the paper](https://doi.org/10.1175/JHM-D-17-0095.1)
+**Authors:** Zhou, T., Voisin, N., Leng, G., Huang, M., Kraucunas, I.
 
-![image](../images/papers/2018-JHM-West-US-WM.png)
+**DOI:** [10.1175/JHM-D-17-0095.1](https://doi.org/10.1175/JHM-D-17-0095.1)
 
-Recommended citation: Zhou, T., Voisin, N., Leng, G., Huang, M., & Kraucunas, I. (2018). Sensitivity of Regulated Flow Regimes to Climate Change in the Western United States. Journal of hydrometeorology, 19, 499-515.
+<!-- Drop a figure into /images/papers/2018-JHM-West-US-WM.png and uncomment: -->
+<!-- ![figure](/images/papers/2018-JHM-West-US-WM.png) -->

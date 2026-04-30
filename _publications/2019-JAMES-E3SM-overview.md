@@ -1,21 +1,25 @@
 ---
-title: "The DOE E3SM Coupled Model Version 1: Overview and Evaluation at Standard Resolution"
+authors: Golaz, J., Caldwell, P. M., Van Roekel, L. P., Petersen, M. R., Tang, Q.,
+  et al.
 collection: publications
-permalink: /publication/2019-JAMES-E3SM-overview
-excerpt: 'This paper overviews E3SM V1 at standard resolution configuration'
+comments: true
 date: 2019-01-01
-venue: 'Journal of Advances in Modeling Earth Systems'
-paperurl: 'https://doi.org/10.1029/2018MS001603'
-citation: 'Golaz, J. C., Caldwell, P. M., Van Roekel, L. P., Petersen, M. R., Tang, Q., Wolfe, J. D., ... &amp; Baldwin, S. A. (2019). The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. Journal of Advances in Modeling Earth Systems, 11(7), 2089-2129.'
+excerpt: This work documents the first version of the U.S. Department of Energy (DOE)
+  new Energy Exascale Earth System Model (E3SMv1). We focus on the standard resolution
+  of the fully coupled physical model designed to address DOE mission‐relevant water
+  cycle questions.
+paperurl: https://doi.org/10.1029/2018MS001603
+permalink: /publication/2019-JAMES-E3SM-overview
+pubtype: journal-article
+title: 'The DOE E3SM Coupled Model Version 1: Overview and Evaluation at Standard
+  Resolution'
+venue: Journal of Advances in Modeling Earth Systems
 ---
-This paper overviews E3SM V1 at standard resolution configuration
+This work documents the first version of the U.S. Department of Energy (DOE) new Energy Exascale Earth System Model (E3SMv1). We focus on the standard resolution of the fully coupled physical model designed to address DOE mission‐relevant water cycle questions.
 
-[Link to the paper](https://doi.org/10.1029/2018MS001603)
+**Authors:** Golaz, J., Caldwell, P. M., Van Roekel, L. P., Petersen, M. R., Tang, Q., et al.
 
-![image](../images/papers/2019-JAMES-E3SM-overview.png)
+**DOI:** [10.1029/2018MS001603](https://doi.org/10.1029/2018MS001603)
 
-<img src="../images/papers/top-cited.PNG" alt="drawing" width="200"/>
-<img src="../images/papers/top-download.PNG" alt="drawing" width="200"/>
-<img src="../images/papers/top-download2.PNG" alt="drawing" width="200"/>
-
-Recommended citation: Golaz, J. C., Caldwell, P. M., Van Roekel, L. P., Petersen, M. R., Tang, Q., Wolfe, J. D., ... & Baldwin, S. A. (2019). The DOE E3SM coupled model version 1: Overview and evaluation at standard resolution. Journal of Advances in Modeling Earth Systems, 11(7), 2089-2129.
+<!-- Drop a figure into /images/papers/2019-JAMES-E3SM-overview.png and uncomment: -->
+<!-- ![figure](/images/papers/2019-JAMES-E3SM-overview.png) -->

@@ -1,19 +1,25 @@
 ---
-title: "The fully coupled regionally refined model of E3SM version 2: overview of the atmosphere, land, and river results"
+authors: Tang, Q., Golaz, J., Van Roekel, L. P., Taylor, M. A., Lin, W., et al.
 collection: publications
-permalink: /publication/2023-E3SMv2-regional-refined
-excerpt: 'This study evaluates a North America regional-refined configuration of E3SM v2'
+comments: true
 date: 2023-07-01
-venue: 'Geoscientific Model Development'
-paperurl: 'https://doi.org/10.5194/gmd-16-3953-2023 '
-citation: 'Tang, Q., Golaz, J.-C., Van Roekel, L. P., Taylor, M. A., Lin, W., Hillman, B. R., Ullrich, P. A., Bradley, A. M., Guba, O., Wolfe, J. D., Zhou, T., Zhang, K., Zheng, X., Zhang, Y., Zhang, M., Wu, M., Wang, H., Tao, C., Singh, B., . . . Bader, D. C. (2023). The fully coupled regionally refined model of E3SM version 2: overview of the atmosphere, land, and river results. Geoscientific Model Development, 16(13), 3953-3995. '
+excerpt: This paper provides an overview of the United States (US) Department of Energy's
+  (DOE's) Energy Exascale Earth System Model version 2 (E3SMv2) fully coupled regionally
+  refined model (RRM) and documents the overall atmosphere, land, and river results
+  from the Coupled Model Intercomparison Project 6 (CMIP6) DECK (Diagnosis, Evaluation,
+  and Characterization of Klima) and historical simulations – a first-of-its-kind
+  set of climate production simulations using RRM.
+paperurl: https://doi.org/10.5194/gmd-16-3953-2023
+permalink: /publication/2023-E3SMv2-regional-refined
+pubtype: journal-article
+title: 'The fully coupled regionally refined model of E3SM version 2: overview of
+  the atmosphere, land, and river results'
+venue: Geoscientific Model Development
 ---
-This study evaluates a North America regional-refined configuration of E3SM v2
+This paper provides an overview of the United States (US) Department of Energy's (DOE's) Energy Exascale Earth System Model version 2 (E3SMv2) fully coupled regionally refined model (RRM) and documents the overall atmosphere, land, and river results from the Coupled Model Intercomparison Project 6 (CMIP6) DECK (Diagnosis, Evaluation, and Characterization of Klima) and historical simulations – a first-of-its-kind set of climate production simulations using RRM.
 
-[Link to the paper](https://doi.org/10.5194/gmd-16-3953-2023 )
+**Authors:** Tang, Q., Golaz, J., Van Roekel, L. P., Taylor, M. A., Lin, W., et al.
 
-[See more from E3SM website](https://e3sm.org/overview-of-the-north-american-regionally-refined-model-of-e3sm-version-2/)
+**DOI:** [10.5194/gmd-16-3953-2023](https://doi.org/10.5194/gmd-16-3953-2023)
 
-![image](https://e3sm.org/wp-content/uploads/2023/08/NARRM-1-1.jpg)
-
-Recommended citation: Tang, Q., Golaz, J.-C., Van Roekel, L. P., Taylor, M. A., Lin, W., Hillman, B. R., Ullrich, P. A., Bradley, A. M., Guba, O., Wolfe, J. D., Zhou, T., Zhang, K., Zheng, X., Zhang, Y., Zhang, M., Wu, M., Wang, H., Tao, C., Singh, B., . . . Bader, D. C. (2023). The fully coupled regionally refined model of E3SM version 2: overview of the atmosphere, land, and river results. Geoscientific Model Development, 16(13), 3953-3995. 
+![figure](https://e3sm.org/wp-content/uploads/2023/08/NARRM-1-1.jpg)

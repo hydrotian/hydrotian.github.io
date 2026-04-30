@@ -1,17 +1,25 @@
 ---
-title: "A prototype global drought information system based on multiple land surface models"
+authors: Nijssen, B., Shukla, S., Lin, C., Gao, H., Zhou, T., et al.
 collection: publications
-permalink: /publication/2014-JHM-Drought-Monitoring
-excerpt: 'This paper is about a global drought monitoring system based on VIC model'
+comments: true
 date: 2014-01-02
-venue: 'Journal of Hydrometeorology'
-paperurl: 'https://doi.org/10.1175/JHM-D-13-090.1'
-citation: 'Nijssen, B., Shukla, S., Lin, C., Gao, H., Zhou, T., Ishottama, Sheffield, J., Wood, E. F., &amp; Lettenmaier, D. P. (2014). A Prototype Global Drought Information System Based on Multiple Land Surface Models. Journal of hydrometeorology, 15, 1661-1676.'
+excerpt: The implementation of a multimodel drought monitoring system is described,
+  which provides near-real-time estimates of surface moisture storage for the global
+  land areas between 50°S and 50°N with a time lag of about 1 day. Near-real-time
+  forcings are derived from satellite-based precipitation estimates and modeled air
+  temperatures.
+paperurl: https://doi.org/10.1175/JHM-D-13-090.1
+permalink: /publication/2014-JHM-Drought-Monitoring
+pubtype: journal-article
+title: A prototype global drought information system based on multiple land surface
+  models
+venue: Journal of Hydrometeorology
 ---
-This paper is about a global drought monitoring system based on VIC model
+The implementation of a multimodel drought monitoring system is described, which provides near-real-time estimates of surface moisture storage for the global land areas between 50°S and 50°N with a time lag of about 1 day. Near-real-time forcings are derived from satellite-based precipitation estimates and modeled air temperatures.
 
-[Link to the paper](https://doi.org/10.1175/JHM-D-13-090.1)
+**Authors:** Nijssen, B., Shukla, S., Lin, C., Gao, H., Zhou, T., et al.
 
-![image](../images/papers/2014-JHM-Drought-Monitoring.png)
+**DOI:** [10.1175/JHM-D-13-090.1](https://doi.org/10.1175/JHM-D-13-090.1)
 
-Recommended citation: Nijssen, B., Shukla, S., Lin, C., Gao, H., Zhou, T., Ishottama, Sheffield, J., Wood, E. F., & Lettenmaier, D. P. (2014). A Prototype Global Drought Information System Based on Multiple Land Surface Models. Journal of hydrometeorology, 15, 1661-1676.
+<!-- Drop a figure into /images/papers/2014-JHM-Drought-Monitoring.png and uncomment: -->
+<!-- ![figure](/images/papers/2014-JHM-Drought-Monitoring.png) -->

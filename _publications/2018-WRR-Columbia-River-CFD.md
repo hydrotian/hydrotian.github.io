@@ -1,17 +1,22 @@
 ---
-title: "Riverbed hydrologic exchange dynamics in a large regulated river reach"
+authors: Zhou, T., Bao, J., Huang, M., Hou, Z., Arntzen, E., et al.
 collection: publications
-permalink: /publication/2018-WRR-Columbia-River-CFD
-excerpt: 'This paper examines how upstream dam operations controls downstream hydrologic exchange patterns'
+comments: true
 date: 2018-01-04
+excerpt: Hydrologic exchange flux (HEF) is an important hydrologic component in river
+  corridors that includes both bidirectional (hyporheic) and unidirectional (gaining/losing)
+  surface water‐groundwater exchanges.
+paperurl: https://doi.org/10.1002/2017WR020508
+permalink: /publication/2018-WRR-Columbia-River-CFD
+pubtype: journal-article
+title: Riverbed hydrologic exchange dynamics in a large regulated river reach
 venue: 'Water Resources Research '
-paperurl: 'https://doi.org/10.1002/2017WR020508'
-citation: 'Zhou, T., Bao, J., Huang, M., Hou, Z., Arntzen, E., Song, X., Harding, S. F., Titzler, P. S., Ren, H., Murray, C. J., Perkins, W. A., Chen, X., Stegen, J. C., Hammond, G. E., Thorne, P. D., Zachara, J. M., Titzler, S., Ren, H., Murray, C. J., . . .  Zachara, J. M. (2018). Riverbed Hydrologic Exchange Dynamics in a Large Regulated River Reach. Water Resources Research, 54, 1-16. '
 ---
-This paper examines how upstream dam operations controls downstream hydrologic exchange patterns
+Hydrologic exchange flux (HEF) is an important hydrologic component in river corridors that includes both bidirectional (hyporheic) and unidirectional (gaining/losing) surface water‐groundwater exchanges.
 
-[Link to the paper](https://doi.org/10.1002/2017WR020508)
+**Authors:** Zhou, T., Bao, J., Huang, M., Hou, Z., Arntzen, E., et al.
 
-![image](../images/papers/2018-WRR-Columbia-River-CFD.png)
+**DOI:** [10.1002/2017WR020508](https://doi.org/10.1002/2017WR020508)
 
-Recommended citation: Zhou, T., Bao, J., Huang, M., Hou, Z., Arntzen, E., Song, X., Harding, S. F., Titzler, P. S., Ren, H., Murray, C. J., Perkins, W. A., Chen, X., Stegen, J. C., Hammond, G. E., Thorne, P. D., Zachara, J. M., Titzler, S., Ren, H., Murray, C. J., . . .  Zachara, J. M. (2018). Riverbed Hydrologic Exchange Dynamics in a Large Regulated River Reach. Water Resources Research, 54, 1-16. 
+<!-- Drop a figure into /images/papers/2018-WRR-Columbia-River-CFD.png and uncomment: -->
+<!-- ![figure](/images/papers/2018-WRR-Columbia-River-CFD.png) -->

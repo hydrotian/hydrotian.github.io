@@ -7,9 +7,16 @@ redirect_from:
   - /home/
   - /home.html
 ---
+### Apr. 2026
+- The [E3SM v3 overview paper](https://doi.org/10.1029/2025MS005302) is published in JAMES.
+- A new paper benchmarking LLMs for Earth system model analysis is submitted to GMD — [preprint here](https://doi.org/10.5194/egusphere-2026-2237).
+
+### Dec. 2025
+- Attended AGU in New Orleans and presented our delta bifurcation work in MOSART.
+- Yi Yao's [Nature Water paper](https://www.nature.com/articles/s44221-025-00529-1) on irrigation-induced land water depletion is online!
+
 ### Sep 2025
 - Had a great E3SM all-hands meeting in DC area. I presented some results from ongoing developments in E3SM such as MOSART bifurcation, IBT, and MOSART-GCAM.
-- A number of papers published or accepted, including another [IRRMIP paper](https://www.nature.com/articles/s44221-025-00529-1) led by Yi published on Nature Water, and a E3SM v3 paper on [JAMES](https://essopenarchive.org/doi/full/10.22541/essoar.175097464.44666291).
 
 ### Feb 2025
 - Yi Yao's [first IRRMIP paper](https://www.nature.com/articles/s41467-025-56356-1) published on Nature Communications.

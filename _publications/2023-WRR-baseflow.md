@@ -1,17 +1,22 @@
 ---
-title: "Detecting Permafrost Active Layer Thickness Change From Nonlinear Baseflow Recession"
+authors: Cooper, M. G., Zhou, T., Bennett, K. E., Bolton, W. R., Coon, E. T., et al.
 collection: publications
-permalink: /publication/2023-WRR-baseflow
-excerpt: 'This study introduces a theoretical nonlinear relationships between long-term average saturated soil thickness (proxy for active layer thickness) and long-term average baseflow. We applied the al'
+comments: true
 date: 2023-01-01
-venue: 'Water Resources Research'
-paperurl: 'https://doi.org/10.1029/2022wr033154 '
-citation: 'Cooper, M. G., Zhou, T., Bennett, K. E., Bolton, W. R., Coon, E. T., Fleming, S. W., Rowland, J. C., &amp; Schwenk, J. (2023). Detecting Permafrost Active Layer Thickness Change From Nonlinear Baseflow Recession. Water Resources Research, 59(1). '
+excerpt: Permafrost underlies about one fifth of the global land area and affects
+  ground stability, freshwater runoff, soil chemistry, and surface‐atmosphere gas
+  exchange.
+paperurl: https://doi.org/10.1029/2022wr033154
+permalink: /publication/2023-WRR-baseflow
+pubtype: journal-article
+title: Detecting Permafrost Active Layer Thickness Change From Nonlinear Baseflow
+  Recession
+venue: Water Resources Research
 ---
-This study introduces a theoretical nonlinear relationships between long-term average saturated soil thickness (proxy for active layer thickness) and long-term average baseflow. We applied the al
+Permafrost underlies about one fifth of the global land area and affects ground stability, freshwater runoff, soil chemistry, and surface‐atmosphere gas exchange.
 
-[Link to the paper](https://doi.org/10.1029/2022wr033154 )
+**Authors:** Cooper, M. G., Zhou, T., Bennett, K. E., Bolton, W. R., Coon, E. T., et al.
 
-![image](https://agupubs.onlinelibrary.wiley.com/cms/asset/651d03cd-5687-4e06-8e46-bc3f6debf36b/wrcr26413-fig-0002-m.jpg)
+**DOI:** [10.1029/2022wr033154](https://doi.org/10.1029/2022wr033154)
 
-Recommended citation: Cooper, M. G., Zhou, T., Bennett, K. E., Bolton, W. R., Coon, E. T., Fleming, S. W., Rowland, J. C., & Schwenk, J. (2023). Detecting Permafrost Active Layer Thickness Change From Nonlinear Baseflow Recession. Water Resources Research, 59(1). 
+![figure](https://agupubs.onlinelibrary.wiley.com/cms/asset/651d03cd-5687-4e06-8e46-bc3f6debf36b/wrcr26413-fig-0002-m.jpg)

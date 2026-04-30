@@ -1,17 +1,23 @@
 ---
-title: "The contribution of reservoirs to global land surface water storage variations"
+authors: Zhou, T., Nijssen, B., Gao, H., Lettenmaier, D. P.
 collection: publications
-permalink: /publication/2016-JHM-VIC-Reservoir
-excerpt: 'This study investigates human-induced water storage (reservoirs) variation and compares it with natural variations (SWE, soil moisture)'
+comments: true
 date: 2016-01-01
-venue: 'Journal of Hydrometeorology'
-paperurl: 'https://doi.org/10.1175/JHM-D-15-0002.1'
-citation: 'Zhou, T., Nijssen, B., Gao, H., &amp; Lettenmaier, D. P. (2016). The Contribution of Reservoirs to Global Land Surface Water Storage Variations. Journal of hydrometeorology, 17, 309-325.'
+excerpt: Man-made reservoirs play a key role in the terrestrial water system. They
+  alter water fluxes at the land surface and impact surface water storage through
+  water management regulations for diverse purposes such as irrigation, municipal
+  water supply, hydropower generation, and flood control.
+paperurl: https://doi.org/10.1175/JHM-D-15-0002.1
+permalink: /publication/2016-JHM-VIC-Reservoir
+pubtype: journal-article
+title: The contribution of reservoirs to global land surface water storage variations
+venue: Journal of Hydrometeorology
 ---
-This study investigates human-induced water storage (reservoirs) variation and compares it with natural variations (SWE, soil moisture)
+Man-made reservoirs play a key role in the terrestrial water system. They alter water fluxes at the land surface and impact surface water storage through water management regulations for diverse purposes such as irrigation, municipal water supply, hydropower generation, and flood control.
 
-[Link to the paper](https://doi.org/10.1175/JHM-D-15-0002.1)
+**Authors:** Zhou, T., Nijssen, B., Gao, H., Lettenmaier, D. P.
 
-![image](../images/papers/2016-JHM-VIC-Reservoir.png)
+**DOI:** [10.1175/JHM-D-15-0002.1](https://doi.org/10.1175/JHM-D-15-0002.1)
 
-Recommended citation: Zhou, T., Nijssen, B., Gao, H., & Lettenmaier, D. P. (2016). The Contribution of Reservoirs to Global Land Surface Water Storage Variations. Journal of hydrometeorology, 17, 309-325.
+<!-- Drop a figure into /images/papers/2016-JHM-VIC-Reservoir.png and uncomment: -->
+<!-- ![figure](/images/papers/2016-JHM-VIC-Reservoir.png) -->

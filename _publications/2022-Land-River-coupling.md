@@ -1,17 +1,23 @@
 ---
-title: "Development of Land-River Two-Way Coupling in the Energy Exascale Earth System Model"
+authors: Xu, D., Bisht, G., Zhou, T., Leung, L. R., Pan, M.
 collection: publications
-permalink: /publication/2022-Land-River-coupling
-excerpt: 'This paper introduces a new land-river two-way coupling scheme implemented in E3SM'
+comments: true
 date: 2022-01-01
-venue: 'Journal of Advances in Modeling Earth Systems'
-paperurl: 'https://doi.org/10.1029/2021MS002772'
-citation: 'Xu, D., Bisht, G., Zhou, T., Leung, L. R., &amp; Pan, M. (2022). Development of Land-River Two-Way Hydrologic Coupling for Floodplain Inundation in the Energy Exascale Earth System Model. Journal of Advances in Modeling Earth Systems, 14(8).'
+excerpt: Floodplain inundation links river and land systems through significant water,
+  sediment, and nutrient exchanges. However, these two‐way interactions between land
+  and river are currently missing in most Earth System Models.
+paperurl: https://doi.org/10.1029/2021MS002772
+permalink: /publication/2022-Land-River-coupling
+pubtype: journal-article
+title: Development of Land-River Two-Way Coupling in the Energy Exascale Earth System
+  Model
+venue: Journal of Advances in Modeling Earth Systems
 ---
-This paper introduces a new land-river two-way coupling scheme implemented in E3SM
+Floodplain inundation links river and land systems through significant water, sediment, and nutrient exchanges. However, these two‐way interactions between land and river are currently missing in most Earth System Models.
 
-[Link to the paper](https://doi.org/10.1029/2021MS002772)
+**Authors:** Xu, D., Bisht, G., Zhou, T., Leung, L. R., Pan, M.
 
-![image](../images/papers/2022-Land-River-coupling.png)
+**DOI:** [10.1029/2021MS002772](https://doi.org/10.1029/2021MS002772)
 
-Recommended citation: Xu, D., Bisht, G., Zhou, T., Leung, L. R., & Pan, M. (2022). Development of Land-River Two-Way Hydrologic Coupling for Floodplain Inundation in the Energy Exascale Earth System Model. Journal of Advances in Modeling Earth Systems, 14(8).
+<!-- Drop a figure into /images/papers/2022-Land-River-coupling.png and uncomment: -->
+<!-- ![figure](/images/papers/2022-Land-River-coupling.png) -->

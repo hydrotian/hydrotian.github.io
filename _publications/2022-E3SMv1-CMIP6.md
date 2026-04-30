@@ -1,17 +1,23 @@
 ---
-title: "Description of historical and future projection simulations by the global coupled E3SMv1.0 model as used in ScenarioMIP and DAMIP of CMIP6"
+authors: Zheng, X., Li, Q., Zhou, T., Tang, Q., Van Roekel, L. P., et al.
 collection: publications
-permalink: /publication/2022-E3SMv1-CMIP6
-excerpt: 'This paper documents the E3SM v1 simulation for ScenarioMIP and examines the forcing impacts'
+comments: true
 date: 2022-01-03
-venue: 'Geoscientific Model Development'
-paperurl: 'https://doi:10.5194/gmd-15-3941-2022'
-citation: 'Zheng, X., Li, Q., Zhou, T., Tang, Q., Van Roekel, L. P., Golaz, J.-C., Wang, H., &amp; Cameron-Smith, P. (2022). Description of historical and future projection simulations by the global coupled E3SMv1.0 model as used in CMIP6. Geoscientific Model Development, 15(9), 3941-3967.'
+excerpt: This paper documents the experimental setup and general features of the coupled
+  historical and future climate simulations with the first version of the US Department
+  of Energy (DOE) Energy Exascale Earth System Model (E3SMv1.0).
+paperurl: https://doi:10.5194/gmd-15-3941-2022
+permalink: /publication/2022-E3SMv1-CMIP6
+pubtype: journal-article
+title: Description of historical and future projection simulations by the global coupled
+  E3SMv1.0 model as used in ScenarioMIP and DAMIP of CMIP6
+venue: Geoscientific Model Development
 ---
-This paper documents the E3SM v1 simulation for ScenarioMIP and examines the forcing impacts
+This paper documents the experimental setup and general features of the coupled historical and future climate simulations with the first version of the US Department of Energy (DOE) Energy Exascale Earth System Model (E3SMv1.0).
 
-[Link to the paper](https://doi:10.5194/gmd-15-3941-2022)
+**Authors:** Zheng, X., Li, Q., Zhou, T., Tang, Q., Van Roekel, L. P., et al.
 
-![image](../images/papers/2022-E3SMv1-CMIP6.png)
+**DOI:** [10.5194/gmd-15-3941-2022](https://doi:10.5194/gmd-15-3941-2022)
 
-Recommended citation: Zheng, X., Li, Q., Zhou, T., Tang, Q., Van Roekel, L. P., Golaz, J.-C., Wang, H., & Cameron-Smith, P. (2022). Description of historical and future projection simulations by the global coupled E3SMv1.0 model as used in CMIP6. Geoscientific Model Development, 15(9), 3941-3967.
+<!-- Drop a figure into /images/papers/2022-E3SMv1-CMIP6.png and uncomment: -->
+<!-- ![figure](/images/papers/2022-E3SMv1-CMIP6.png) -->

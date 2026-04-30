@@ -1,17 +1,22 @@
 ---
-title: "Reshaping of the hyporheic zone beneath river restoration structures: flume and hydrodynamic experiments"
+authors: Zhou, T., Endreny, T. A.
 collection: publications
-permalink: /publication/2013-WRR-Flume-Hyporheic
-excerpt: 'This study quantifies how river restoration structures change surface and hyporheic flow hydrodynamics'
+comments: true
 date: 2013-01-01
-venue: 'Water Resources Research'
-paperurl: 'https://doi.org/10.1002/WRCR.20384'
-citation: 'Zhou, T., &amp; Endreny, T. A. (2013). Reshaping of the hyporheic zone beneath river restoration structures: Flume and hydrodynamic experiments. Water Resources Research, 49, 5009-5020. '
+excerpt: In‐channel stream restoration structures readjust surface water hydraulics,
+  streambed pressure, and subsurface hyporheic exchange characteristics.
+paperurl: https://doi.org/10.1002/WRCR.20384
+permalink: /publication/2013-WRR-Flume-Hyporheic
+pubtype: journal-article
+title: 'Reshaping of the hyporheic zone beneath river restoration structures: flume
+  and hydrodynamic experiments'
+venue: Water Resources Research
 ---
-This study quantifies how river restoration structures change surface and hyporheic flow hydrodynamics
+In‐channel stream restoration structures readjust surface water hydraulics, streambed pressure, and subsurface hyporheic exchange characteristics.
 
-[Link to the paper](https://doi.org/10.1002/WRCR.20384)
+**Authors:** Zhou, T., Endreny, T. A.
 
-![image](../images/papers/2013-WRR-Flume-Hyporheic.png)
+**DOI:** [10.1002/WRCR.20384](https://doi.org/10.1002/WRCR.20384)
 
-Recommended citation: Zhou, T., & Endreny, T. A. (2013). Reshaping of the hyporheic zone beneath river restoration structures: Flume and hydrodynamic experiments. Water Resources Research, 49, 5009-5020. 
+<!-- Drop a figure into /images/papers/2013-WRR-Flume-Hyporheic.png and uncomment: -->
+<!-- ![figure](/images/papers/2013-WRR-Flume-Hyporheic.png) -->

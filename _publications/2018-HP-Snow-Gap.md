@@ -1,17 +1,24 @@
 ---
-title: "Evaluating the functionality and streamflow impacts of explicitly modeling forest snow interactions and canopy gaps in a distributed hydrologic model"
+authors: Sun, N., Wigmosta, M., Zhou, T., Lundquist, J., Dickerson‐Lange, S., et al.
 collection: publications
-permalink: /publication/2018-HP-Snow-Gap
-excerpt: 'This paper examines the effect of forest gaps on snow processes'
+comments: true
 date: 2018-01-03
+excerpt: Many plot‐scale studies have shown that snow‐cover dynamics in forest gaps
+  are distinctly different from those in open and continuously forested areas, and
+  forest gaps have the potential to alter the magnitude and timing of snowmelt. However,
+  the watershed‐level impacts of canopy gap treatment on streamflows are largely unknown.
+paperurl: https://doi.org/10.1002/hyp.13150
+permalink: /publication/2018-HP-Snow-Gap
+pubtype: journal-article
+title: Evaluating the functionality and streamflow impacts of explicitly modeling
+  forest snow interactions and canopy gaps in a distributed hydrologic model
 venue: 'Hydrological Processes '
-paperurl: 'https://doi.org/10.1002/hyp.13150'
-citation: 'Sun, N., Wigmosta, M., Zhou, T., Lundquist, J., Dickerson-Lange, S., &amp; Cristea, N. (2018). Evaluating the functionality and streamflow impacts of explicitly modelling forest-snow interactions and canopy gaps in a distributed hydrologic model. Hydrological Processes, 32, 2128-2140. '
 ---
-This paper examines the effect of forest gaps on snow processes
+Many plot‐scale studies have shown that snow‐cover dynamics in forest gaps are distinctly different from those in open and continuously forested areas, and forest gaps have the potential to alter the magnitude and timing of snowmelt. However, the watershed‐level impacts of canopy gap treatment on streamflows are largely unknown.
 
-[Link to the paper](https://doi.org/10.1002/hyp.13150)
+**Authors:** Sun, N., Wigmosta, M., Zhou, T., Lundquist, J., Dickerson‐Lange, S., et al.
 
-![image](../images/papers/2018-HP-Snow-Gap.png)
+**DOI:** [10.1002/hyp.13150](https://doi.org/10.1002/hyp.13150)
 
-Recommended citation: Sun, N., Wigmosta, M., Zhou, T., Lundquist, J., Dickerson-Lange, S., & Cristea, N. (2018). Evaluating the functionality and streamflow impacts of explicitly modelling forest-snow interactions and canopy gaps in a distributed hydrologic model. Hydrological Processes, 32, 2128-2140. 
+<!-- Drop a figure into /images/papers/2018-HP-Snow-Gap.png and uncomment: -->
+<!-- ![figure](/images/papers/2018-HP-Snow-Gap.png) -->

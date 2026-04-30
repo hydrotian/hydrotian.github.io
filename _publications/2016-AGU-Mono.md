@@ -1,17 +1,22 @@
 ---
-title: "Human induced changes in the global water cycle"
+authors: Zhou, T., Haddeland, I., Nijssen, B., Lettenmaier, D. P.
 collection: publications
-permalink: /publication/2016-AGU-Mono
-excerpt: 'This is a book chapter for AGU monograph about human impact on land surface water budget'
+comments: true
 date: 2016-01-02
-venue: 'Terrestrial Water Cycle and Climate Change: Natural and Human-Induced Impacts; Geophysical Monograph 221; 57'
-paperurl: 'https://doi.org/10.1002/9781118971772.ch4'
-citation: 'Zhou, T., Haddeland, I., Nijssen, B., &amp; Lettenmaier, D. P. (2016). Human-Induced Changes in the Global Water Cycle. In Q. Tang &amp; T. Oki (Eds.), Terrestrial Water Cycle and Climate Change (pp. 55-69). John Wiley &amp; Sons, Inc.'
+excerpt: This is a book chapter for AGU monograph about human impact on land surface
+  water budget
+paperurl: https://doi.org/10.1002/9781118971772.ch4
+permalink: /publication/2016-AGU-Mono
+pubtype: journal-article
+title: Human induced changes in the global water cycle
+venue: 'Terrestrial Water Cycle and Climate Change: Natural and Human-Induced Impacts;
+  Geophysical Monograph 221; 57'
 ---
 This is a book chapter for AGU monograph about human impact on land surface water budget
 
-[Link to the paper](https://doi.org/10.1002/9781118971772.ch4)
+**Authors:** Zhou, T., Haddeland, I., Nijssen, B., Lettenmaier, D. P.
 
-![image](../images/papers/2016-AGU-Mono.png)
+**DOI:** [10.1002/9781118971772.ch4](https://doi.org/10.1002/9781118971772.ch4)
 
-Recommended citation: Zhou, T., Haddeland, I., Nijssen, B., & Lettenmaier, D. P. (2016). Human-Induced Changes in the Global Water Cycle. In Q. Tang & T. Oki (Eds.), Terrestrial Water Cycle and Climate Change (pp. 55-69). John Wiley & Sons, Inc.
+<!-- Drop a figure into /images/papers/2016-AGU-Mono.png and uncomment: -->
+<!-- ![figure](/images/papers/2016-AGU-Mono.png) -->

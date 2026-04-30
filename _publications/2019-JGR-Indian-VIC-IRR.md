@@ -1,17 +1,23 @@
 ---
-title: "Strong influence of irrigation on water budget and land surface temperature in Indian sub-continental river basins"
+authors: Shah, H. L., Zhou, T., Huang, M., Mishra, V.
 collection: publications
-permalink: /publication/2019-JGR-Indian-VIC-IRR
-excerpt: 'This paper examines irrigation impacts over Indian basins'
+comments: true
 date: 2019-01-05
+excerpt: Irrigation modulates the terrestrial water budget in intensively irrigated
+  regions. However, the influence of irrigation on water budget and land surface temperature
+  (LST) has not been quantified in Indian subcontinental river basins.
+paperurl: https://doi.org/10.1029/2018JD029132
+permalink: /publication/2019-JGR-Indian-VIC-IRR
+pubtype: journal-article
+title: Strong influence of irrigation on water budget and land surface temperature
+  in Indian sub-continental river basins
 venue: 'Journal of Geophysical Research: Atmospheres'
-paperurl: 'https://doi.org/10.1029/2018JD029132'
-citation: 'Shah, H. L., Zhou, T., Huang, M., &amp; Mishra, V. (2019). Strong Influence of Irrigation on Water Budget and Land Surface Temperature in Indian Subcontinental River Basins. Journal of Geophysical Research: Atmospheres, 124(3), 1449-1462. '
 ---
-This paper examines irrigation impacts over Indian basins
+Irrigation modulates the terrestrial water budget in intensively irrigated regions. However, the influence of irrigation on water budget and land surface temperature (LST) has not been quantified in Indian subcontinental river basins.
 
-[Link to the paper](https://doi.org/10.1029/2018JD029132)
+**Authors:** Shah, H. L., Zhou, T., Huang, M., Mishra, V.
 
-![image](../images/papers/2019-JGR-Indian-VIC-IRR.png)
+**DOI:** [10.1029/2018JD029132](https://doi.org/10.1029/2018JD029132)
 
-Recommended citation: Shah, H. L., Zhou, T., Huang, M., & Mishra, V. (2019). Strong Influence of Irrigation on Water Budget and Land Surface Temperature in Indian Subcontinental River Basins. Journal of Geophysical Research: Atmospheres, 124(3), 1449-1462. 
+<!-- Drop a figure into /images/papers/2019-JGR-Indian-VIC-IRR.png and uncomment: -->
+<!-- ![figure](/images/papers/2019-JGR-Indian-VIC-IRR.png) -->

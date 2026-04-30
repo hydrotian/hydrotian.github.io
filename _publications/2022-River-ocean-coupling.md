@@ -1,17 +1,21 @@
 ---
-title: "Investigating coastal backwater effects and flooding in the coastal zone using a global river transport model on an unstructured mesh"
+authors: Feng, D., Tan, Z., Engwirda, D., Liao, C., Xu, D., et al.
 collection: publications
-permalink: /publication/2022-River-ocean-coupling
-excerpt: 'This paper evaluates the river-ocean two-way coupling scheme in E3SM. The simulations were running on a unified mesh that seamlessly connects the river and ocean.'
+comments: true
 date: 2022-09-03
-venue: 'Hydrology and Earth System Sciences'
-paperurl: 'https://doi.org/10.5194/hess-26-5473-2022 '
-citation: 'Feng, D., Tan, Z., Engwirda, D., Liao, C., Xu, D., Bisht, G., Zhou, T., Li, H.-Y., &amp; Leung, L. R. (2022). Investigating coastal backwater effects and flooding in the coastal zone using a global river transport model on an unstructured mesh. Hydrology and Earth System Sciences, 26(21), 5473-5491. '
+excerpt: Coastal backwater effects are caused by the downstream water level increase
+  as a result of elevated sea level, high river discharge and their compounding influence.
+paperurl: https://doi.org/10.5194/hess-26-5473-2022
+permalink: /publication/2022-River-ocean-coupling
+pubtype: journal-article
+title: Investigating coastal backwater effects and flooding in the coastal zone using
+  a global river transport model on an unstructured mesh
+venue: Hydrology and Earth System Sciences
 ---
-This paper evaluates the river-ocean two-way coupling scheme in E3SM. The simulations were running on a unified mesh that seamlessly connects the river and ocean.
+Coastal backwater effects are caused by the downstream water level increase as a result of elevated sea level, high river discharge and their compounding influence.
 
-[Link to the paper](https://doi.org/10.5194/hess-26-5473-2022 )
+**Authors:** Feng, D., Tan, Z., Engwirda, D., Liao, C., Xu, D., et al.
 
-![image](https://hess.copernicus.org/articles/26/5473/2022/hess-26-5473-2022-avatar-web.png)
+**DOI:** [10.5194/hess-26-5473-2022](https://doi.org/10.5194/hess-26-5473-2022)
 
-Recommended citation: Feng, D., Tan, Z., Engwirda, D., Liao, C., Xu, D., Bisht, G., Zhou, T., Li, H.-Y., & Leung, L. R. (2022). Investigating coastal backwater effects and flooding in the coastal zone using a global river transport model on an unstructured mesh. Hydrology and Earth System Sciences, 26(21), 5473-5491. 
+![figure](https://hess.copernicus.org/articles/26/5473/2022/hess-26-5473-2022-avatar-web.png)

@@ -1,17 +1,23 @@
 ---
-title: "The Role of Groundwater Withdrawals on River Regulation: Example from the Columbia River Basin"
+authors: Eldardiry, H., Zhou, T., Huang, M., Chegwidden, O. S.
 collection: publications
-permalink: /publication/2022-VIC-GIRR
-excerpt: 'This paper introduces a new groundwater withdrawal scheme in VIC reservoir model'
+comments: true
 date: 2022-01-02
-venue: 'Water Resources Research'
-paperurl: 'https://doi:10.1029/2020WR028955'
-citation: 'Eldardiry, H., Zhou, T., Huang, M., &amp; Chegwidden, O. S. (2022). The Role of Groundwater Withdrawals on River Regulation: Example From the Columbia River Basin. Water Resources Research, 58(6).'
+excerpt: The Columbia River Basin (CRB) is heavily regulated by more than 250 dams
+  on its river system while depending significantly on groundwater withdrawals in
+  certain sub‐basins.
+paperurl: https://doi:10.1029/2020WR028955
+permalink: /publication/2022-VIC-GIRR
+pubtype: journal-article
+title: 'The Role of Groundwater Withdrawals on River Regulation: Example from the
+  Columbia River Basin'
+venue: Water Resources Research
 ---
-This paper introduces a new groundwater withdrawal scheme in VIC reservoir model
+The Columbia River Basin (CRB) is heavily regulated by more than 250 dams on its river system while depending significantly on groundwater withdrawals in certain sub‐basins.
 
-[Link to the paper](https://doi:10.1029/2020WR028955)
+**Authors:** Eldardiry, H., Zhou, T., Huang, M., Chegwidden, O. S.
 
-![image](../images/papers/2022-VIC-GIRR.png)
+**DOI:** [10.1029/2020WR028955](https://doi:10.1029/2020WR028955)
 
-Recommended citation: Eldardiry, H., Zhou, T., Huang, M., & Chegwidden, O. S. (2022). The Role of Groundwater Withdrawals on River Regulation: Example From the Columbia River Basin. Water Resources Research, 58(6).
+<!-- Drop a figure into /images/papers/2022-VIC-GIRR.png and uncomment: -->
+<!-- ![figure](/images/papers/2022-VIC-GIRR.png) -->

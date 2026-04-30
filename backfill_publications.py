@@ -56,8 +56,15 @@ FALLBACK_DESCRIPTIONS = {
         "Benchmarks large language models on Earth system model analysis tasks and documents silent-failure modes where outputs look plausible but are wrong.",
 }
 
-# Files we want to rewrite (the 15 ORCID-generated 2024+ entries)
-TARGET_PERMALINKS = set(FALLBACK_DESCRIPTIONS.keys())
+# If True, process every publication file. Otherwise only those in
+# FALLBACK_DESCRIPTIONS. Set via --all on the command line.
+PROCESS_ALL = False
+
+
+def existing_image_url(body: str) -> str:
+    """Return the first external (http) image URL found in the body, if any."""
+    m = re.search(r"!\[[^\]]*\]\((https?://[^)]+)\)", body)
+    return m.group(1) if m else ""
 
 
 def fetch_crossref(doi: str) -> dict:
@@ -131,16 +138,16 @@ def parse_frontmatter(text: str) -> tuple:
 
 def rewrite_file(path: Path):
     raw = path.read_text(encoding="utf-8")
-    fm, _body = parse_frontmatter(raw)
+    fm, body = parse_frontmatter(raw)
     if not fm:
         print(f"skip (no frontmatter): {path.name}")
         return
 
     permalink_stem = path.stem
-    if permalink_stem not in TARGET_PERMALINKS:
+    if not PROCESS_ALL and permalink_stem not in FALLBACK_DESCRIPTIONS:
         return
 
-    paper_url = fm.get("paperurl", "") or ""
+    paper_url = (fm.get("paperurl", "") or "").strip()
     doi_match = re.search(r"10\.\d{4,9}/[^\s]+", paper_url)
     doi = doi_match.group(0).rstrip(" .)") if doi_match else ""
 
@@ -148,7 +155,8 @@ def rewrite_file(path: Path):
     abstract = clean_jats(cr.get("abstract", ""))
     description = first_sentences(abstract) if abstract else ""
     if not description:
-        description = FALLBACK_DESCRIPTIONS.get(permalink_stem, fm.get("excerpt", ""))
+        # Prefer hand-written fallback for known files, else keep the existing excerpt
+        description = FALLBACK_DESCRIPTIONS.get(permalink_stem) or (fm.get("excerpt", "") or "").strip()
 
     authors = authors_from_crossref(cr) or fm.get("authors", "") or ""
 
@@ -195,12 +203,17 @@ def rewrite_file(path: Path):
     if paper_url:
         label = doi if doi else paper_url
         body_lines += [f"**DOI:** [{label}]({paper_url})", ""]
-    image_filename = f"{permalink_stem}.png"
-    body_lines += [
-        f"<!-- Drop a figure into /{IMAGES_DIR}/{image_filename} and uncomment: -->",
-        f"<!-- ![figure](/{IMAGES_DIR}/{image_filename}) -->",
-        "",
-    ]
+    # Preserve any external image already in the body; otherwise emit a placeholder
+    img_url = existing_image_url(body)
+    if img_url:
+        body_lines += [f"![figure]({img_url})", ""]
+    else:
+        image_filename = f"{permalink_stem}.png"
+        body_lines += [
+            f"<!-- Drop a figure into /{IMAGES_DIR}/{image_filename} and uncomment: -->",
+            f"<!-- ![figure](/{IMAGES_DIR}/{image_filename}) -->",
+            "",
+        ]
 
     new_text = (
         "---\n"
@@ -214,6 +227,9 @@ def rewrite_file(path: Path):
 
 
 def main():
+    global PROCESS_ALL
+    if "--all" in sys.argv:
+        PROCESS_ALL = True
     targets = sorted(PUBLICATIONS_DIR.glob("*.md"))
     for p in targets:
         rewrite_file(p)

@@ -1,17 +1,22 @@
 ---
-title: "Non-stationary hydropower generation projections constrained by environmental and electricity grid operations over the western United States"
+authors: Zhou, T., Voisin, N., Fu, T.
 collection: publications
-permalink: /publication/2018-ERL-Hydropower
-excerpt: 'This paper compares process-based model predictions with simple regression results in terms of future hydropower generation'
+comments: true
 date: 2018-01-02
-venue: 'Environmental Research Letters'
-paperurl: 'https://doi.org/10.1088/1748-9326/aad19f'
-citation: 'Zhou, T., Voisin, N., &amp; Fu, T. (2018). Non-stationary hydropower generation projections constrained by environmental and electricity grid operations over the western United States. Environmental Research Letters, 13, 074035. '
+excerpt: This paper compares process-based model predictions with simple regression
+  results in terms of future hydropower generation
+paperurl: https://doi.org/10.1088/1748-9326/aad19f
+permalink: /publication/2018-ERL-Hydropower
+pubtype: journal-article
+title: Non-stationary hydropower generation projections constrained by environmental
+  and electricity grid operations over the western United States
+venue: Environmental Research Letters
 ---
 This paper compares process-based model predictions with simple regression results in terms of future hydropower generation
 
-[Link to the paper](https://doi.org/10.1088/1748-9326/aad19f)
+**Authors:** Zhou, T., Voisin, N., Fu, T.
 
-![image](../images/papers/2018-ERL-Hydropower.png)
+**DOI:** [10.1088/1748-9326/aad19f](https://doi.org/10.1088/1748-9326/aad19f)
 
-Recommended citation: Zhou, T., Voisin, N., & Fu, T. (2018). Non-stationary hydropower generation projections constrained by environmental and electricity grid operations over the western United States. Environmental Research Letters, 13, 074035. 
+<!-- Drop a figure into /images/papers/2018-ERL-Hydropower.png and uncomment: -->
+<!-- ![figure](/images/papers/2018-ERL-Hydropower.png) -->

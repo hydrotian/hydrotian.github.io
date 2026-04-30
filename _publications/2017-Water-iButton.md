@@ -1,17 +1,23 @@
 ---
-title: "A New Approach to Quantify Shallow Water Hydrologic Exchanges in a Large Regulated River Reach"
+authors: Zhou, T., Huang, M., Bao, J., Hou, Z., Arntzen, E., et al.
 collection: publications
-permalink: /publication/2017-Water-iButton
-excerpt: 'This paper uses streambed temperature to predict vertical hydrologic exchange rate in Columbia River'
+comments: true
 date: 2017-01-02
-venue: 'Water'
-paperurl: 'https://doi.org/10.3390/w9090703'
-citation: 'Zhou, T., Huang, M., Bao, J., Hou, Z., Arntzen, E., Mackley, R., Crump, A., Goldman, A., Song, X., Xu, Y., &amp; Zachara, J. (2017). A New Approach to Quantify Shallow Water Hydrologic Exchanges in a Large Regulated River Reach. Water, 9, 703.'
+excerpt: Hydrologic exchange is a crucial component of the water cycle. The strength
+  of the exchange directly affects the biogeochemical and ecological processes that
+  occur in the hyporheic zone and aquifer from micro to reach scales.
+paperurl: https://doi.org/10.3390/w9090703
+permalink: /publication/2017-Water-iButton
+pubtype: journal-article
+title: A New Approach to Quantify Shallow Water Hydrologic Exchanges in a Large Regulated
+  River Reach
+venue: Water
 ---
-This paper uses streambed temperature to predict vertical hydrologic exchange rate in Columbia River
+Hydrologic exchange is a crucial component of the water cycle. The strength of the exchange directly affects the biogeochemical and ecological processes that occur in the hyporheic zone and aquifer from micro to reach scales.
 
-[Link to the paper](https://doi.org/10.3390/w9090703)
+**Authors:** Zhou, T., Huang, M., Bao, J., Hou, Z., Arntzen, E., et al.
 
-![image](../images/papers/2017-Water-iButton.png)
+**DOI:** [10.3390/w9090703](https://doi.org/10.3390/w9090703)
 
-Recommended citation: Zhou, T., Huang, M., Bao, J., Hou, Z., Arntzen, E., Mackley, R., Crump, A., Goldman, A., Song, X., Xu, Y., & Zachara, J. (2017). A New Approach to Quantify Shallow Water Hydrologic Exchanges in a Large Regulated River Reach. Water, 9, 703.
+<!-- Drop a figure into /images/papers/2017-Water-iButton.png and uncomment: -->
+<!-- ![figure](/images/papers/2017-Water-iButton.png) -->

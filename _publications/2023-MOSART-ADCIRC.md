@@ -1,18 +1,21 @@
 ---
-title: "One-way coupling of E3SM with ADCIRC demonstrated on Hurricane Harvey"
+authors: Pachev, B., Leung, L. R., Zhou, T., Dawson, C.
 collection: publications
-permalink: /publication/2023-MOSART-ADCIRC
-excerpt: 'This paper present a novel one-way coupling of MOSART with the ADvanced CIRCulation model (ADCIRC). The coupled model is validated against NOAA tidal gauge observations for Hurricane Harvey (2017) in Gulf of Mexico region.'
+comments: true
 date: 2023-09-03
-venue: 'Natural Hazards'
-paperurl: 'https://doi.org/10.1007/s11069-023-06192-7 '
-citation: 'Pachev, B., Leung, L. R., Zhou, T., &amp; Dawson, C. (2023). One-way coupling of E3SM with ADCIRC demonstrated on Hurricane Harvey. Natural Hazards. '
+excerpt: This paper present a novel one-way coupling of MOSART with the ADvanced CIRCulation
+  model (ADCIRC). The coupled model is validated against NOAA tidal gauge observations
+  for Hurricane Harvey (2017) in Gulf of Mexico region.
+paperurl: https://doi.org/10.1007/s11069-023-06192-7
+permalink: /publication/2023-MOSART-ADCIRC
+pubtype: journal-article
+title: One-way coupling of E3SM with ADCIRC demonstrated on Hurricane Harvey
+venue: Natural Hazards
 ---
 This paper present a novel one-way coupling of MOSART with the ADvanced CIRCulation model (ADCIRC). The coupled model is validated against NOAA tidal gauge observations for Hurricane Harvey (2017) in Gulf of Mexico region.
 
-[Link to the paper](https://doi.org/10.1007/s11069-023-06192-7 )
+**Authors:** Pachev, B., Leung, L. R., Zhou, T., Dawson, C.
 
-![image](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11069-023-06192-7/MediaObjects/11069_2023_6192_Fig2_HTML.png?as=webp)
-![image](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11069-023-06192-7/MediaObjects/11069_2023_6192_Fig8_HTML.png?as=webp)
+**DOI:** [10.1007/s11069-023-06192-7](https://doi.org/10.1007/s11069-023-06192-7)
 
-Recommended citation: Pachev, B., Leung, L. R., Zhou, T., & Dawson, C. (2023). One-way coupling of E3SM with ADCIRC demonstrated on Hurricane Harvey. Natural Hazards. 
+![figure](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11069-023-06192-7/MediaObjects/11069_2023_6192_Fig2_HTML.png?as=webp)

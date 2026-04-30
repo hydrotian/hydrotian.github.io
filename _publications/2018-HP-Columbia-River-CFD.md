@@ -1,17 +1,22 @@
 ---
-title: "Modulating factors of hydrologic exchanges in a large-scale river reach: insights from three-dimensional computational fluid dynamics simulations"
+authors: Bao, J., Zhou, T., Huang, M., Hou, Z., Perkins, W., et al.
 collection: publications
-permalink: /publication/2018-HP-Columbia-River-CFD
-excerpt: 'This paper investigates the major control factors of hydrologic exchange in a 7km Columbia River reach'
+comments: true
 date: 2018-01-01
+excerpt: Hydrologic exchange is a critical mechanism that shapes hydrological and
+  biogeochemical processes along a river corridor.
+paperurl: https://doi.org/10.1002/hyp.13266
+permalink: /publication/2018-HP-Columbia-River-CFD
+pubtype: journal-article
+title: 'Modulating factors of hydrologic exchanges in a large-scale river reach: insights
+  from three-dimensional computational fluid dynamics simulations'
 venue: 'Hydrological Processes '
-paperurl: 'https://doi.org/10.1002/hyp.13266'
-citation: 'Bao, J., Zhou, T., Huang, M., Hou, Z., Perkins, W., Harding, S., Titzler, S., Hammond, G., Ren, H., Thorne, P., Suffield, S., Murray, C., &amp; Zachara, J. (2018). Modulating factors of hydrologic exchanges in a large-scale river reach: Insights from three-dimensional computational fluid dynamics simulations. Hydrological Processes, 32, 3446-3463.  '
 ---
-This paper investigates the major control factors of hydrologic exchange in a 7km Columbia River reach
+Hydrologic exchange is a critical mechanism that shapes hydrological and biogeochemical processes along a river corridor.
 
-[Link to the paper](https://doi.org/10.1002/hyp.13266)
+**Authors:** Bao, J., Zhou, T., Huang, M., Hou, Z., Perkins, W., et al.
 
-![image](../images/papers/2018-HP-Columbia-River-CFD.png)
+**DOI:** [10.1002/hyp.13266](https://doi.org/10.1002/hyp.13266)
 
-Recommended citation: Bao, J., Zhou, T., Huang, M., Hou, Z., Perkins, W., Harding, S., Titzler, S., Hammond, G., Ren, H., Thorne, P., Suffield, S., Murray, C., & Zachara, J. (2018). Modulating factors of hydrologic exchanges in a large-scale river reach: Insights from three-dimensional computational fluid dynamics simulations. Hydrological Processes, 32, 3446-3463.  
+<!-- Drop a figure into /images/papers/2018-HP-Columbia-River-CFD.png and uncomment: -->
+<!-- ![figure](/images/papers/2018-HP-Columbia-River-CFD.png) -->

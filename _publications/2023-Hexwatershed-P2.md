@@ -1,19 +1,23 @@
 ---
-title: "Topological Relationship-Based Flow Direction Modeling: Stream Burning and Depression Filling"
+authors: Liao, C., Zhou, T., Xu, D., Tan, Z., Bisht, G., et al.
 collection: publications
-permalink: /publication/2023-Hexwatershed-P2
-excerpt: 'This is the second part of a two-part study of building a comprehensive river network over any mesh provided. This paper introduces a workflow that consist of (a) a topological relationship-based hybrid breaching-filling method to conduct stream burning for the river network and (b) a modified depression removal method for rivers and hillslopes.'
+comments: true
 date: 2023-11-01
-venue: 'Journal of Advances in Modeling Earth Systems'
-paperurl: 'https://doi.org/https://doi.org/10.1029/2022MS003487 '
-citation: 'Liao, C., Zhou, T., Xu, D., Tan, Z., Bisht, G., Cooper, M. G., Engwirda, D., Li, H.-Y., &amp; Leung, L. R. (2023). Topological Relationship-Based Flow Direction Modeling: Stream Burning and Depression Filling. Journal of Advances in Modeling Earth Systems, 15(11), e2022MS003487. '
+excerpt: Flow direction modeling consists of (a) an accurate representation of the
+  river network and (b) digital elevation model (DEM) processing to preserve characteristics
+  with hydrological significance. In part 1 of our study, we presented a mesh‐independent
+  approach to representing river networks on different types of meshes.
+paperurl: https://doi.org/https://doi.org/10.1029/2022MS003487
+permalink: /publication/2023-Hexwatershed-P2
+pubtype: journal-article
+title: 'Topological Relationship-Based Flow Direction Modeling: Stream Burning and
+  Depression Filling'
+venue: Journal of Advances in Modeling Earth Systems
 ---
-This is the second part of a two-part study of building a comprehensive river network over any mesh provided. This paper introduces a workflow that consist of (a) a topological relationship-based hybrid breaching-filling method to conduct stream burning for the river network and (b) a modified depression removal method for rivers and hillslopes.
+Flow direction modeling consists of (a) an accurate representation of the river network and (b) digital elevation model (DEM) processing to preserve characteristics with hydrological significance. In part 1 of our study, we presented a mesh‐independent approach to representing river networks on different types of meshes.
 
-[Link to the paper](https://doi.org/https://doi.org/10.1029/2022MS003487 )
+**Authors:** Liao, C., Zhou, T., Xu, D., Tan, Z., Bisht, G., et al.
 
-[Read our highlights](https://climatemodeling.science.energy.gov/research-highlights/new-universal-model-multi-scale-hydrologic-flow-routing)
+**DOI:** [10.1029/2022MS003487](https://doi.org/https://doi.org/10.1029/2022MS003487)
 
-![image](https://agupubs.onlinelibrary.wiley.com/cms/asset/a0f663b7-1349-4079-bd81-2a37b8811298/jame21981-fig-0008-m.jpg)
-
-Recommended citation: Liao, C., Zhou, T., Xu, D., Tan, Z., Bisht, G., Cooper, M. G., Engwirda, D., Li, H.-Y., & Leung, L. R. (2023). Topological Relationship-Based Flow Direction Modeling: Stream Burning and Depression Filling. Journal of Advances in Modeling Earth Systems, 15(11), e2022MS003487. 
+![figure](https://agupubs.onlinelibrary.wiley.com/cms/asset/a0f663b7-1349-4079-bd81-2a37b8811298/jame21981-fig-0008-m.jpg)

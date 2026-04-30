@@ -1,17 +1,22 @@
 ---
-title: "Global irrigation characteristics and effects simulated by fully coupled land surface, river, and water management models in E3SM"
+authors: Zhou, T., Leung, L. R., Leng, G., Voisin, N., Li, H., et al.
 collection: publications
-permalink: /publication/2020-E3SM-irrigation
-excerpt: 'This paper introduces a two_way coupled irrigation scheme developed within the Energy Exascale Earth System Model (E3SM). The new irrigation scheme simulates irrigation water demand and applies irrigation water in E3SM Land Model (ELM), which is coupled to a river routing model and a water management model (MOSART_WM) that simulate streamflow, reservoir operations, and irrigation water supply'
+comments: true
 date: 2020-01-02
-venue: 'Journal of Advances in Modeling Earth Systems'
-paperurl: 'https://doi.org/10.1029/2020MS002069'
-citation: 'Zhou, T., Leung, L. R., Leng, G., Voisin, N., Li, H. Y., Craig, A. P., Tesfa, T., &amp; Mao, Y. (2020). Global Irrigation Characteristics and Effects Simulated by Fully Coupled Land Surface, River, and Water Management Models in E3SM. Journal of Advances in Modeling Earth Systems, 12(10).'
+excerpt: Irrigation supports agricultural production, but widespread use of irrigation
+  can perturb the regional and global water cycle.
+paperurl: https://doi.org/10.1029/2020MS002069
+permalink: /publication/2020-E3SM-irrigation
+pubtype: journal-article
+title: Global irrigation characteristics and effects simulated by fully coupled land
+  surface, river, and water management models in E3SM
+venue: Journal of Advances in Modeling Earth Systems
 ---
-This paper introduces a two_way coupled irrigation scheme developed within the Energy Exascale Earth System Model (E3SM). The new irrigation scheme simulates irrigation water demand and applies irrigation water in E3SM Land Model (ELM), which is coupled to a river routing model and a water management model (MOSART_WM) that simulate streamflow, reservoir operations, and irrigation water supply
+Irrigation supports agricultural production, but widespread use of irrigation can perturb the regional and global water cycle.
 
-[Link to the paper](https://doi.org/10.1029/2020MS002069)
+**Authors:** Zhou, T., Leung, L. R., Leng, G., Voisin, N., Li, H., et al.
 
-![image](../images/papers/2020-E3SM-irrigation.png)
+**DOI:** [10.1029/2020MS002069](https://doi.org/10.1029/2020MS002069)
 
-Recommended citation: Zhou, T., Leung, L. R., Leng, G., Voisin, N., Li, H. Y., Craig, A. P., Tesfa, T., & Mao, Y. (2020). Global Irrigation Characteristics and Effects Simulated by Fully Coupled Land Surface, River, and Water Management Models in E3SM. Journal of Advances in Modeling Earth Systems, 12(10).
+<!-- Drop a figure into /images/papers/2020-E3SM-irrigation.png and uncomment: -->
+<!-- ![figure](/images/papers/2020-E3SM-irrigation.png) -->

@@ -868,7 +868,20 @@
       "permalink": "2007-Discovery-of-a-1-0-Ma-Yellow-River-terrace-and-red",
       "put_code": 28530062,
       "work_type": "journal-article"
+    },
+    "213370602": {
+      "title": "Irrigation-induced land water depletion aggravated by climate change",
+      "venue": "Nature Water",
+      "date": "2025-11-05",
+      "doi": "10.1038/s44221-025-00529-1",
+      "paper_url": "https://doi.org/10.1038/s44221-025-00529-1",
+      "citation": "Yao, Y. et al., (2025), Irrigation-induced land water depletion aggravated by climate change, Nature Water, https://doi.org/10.1038/s44221-025-00529-1.",
+      "authors": "Yao, Y., Thiery, W., Ducharne, A., Cook, B. I., Ding, A., et al.",
+      "crossref_description": "",
+      "permalink": "2025-Irrigation-induced-land-water-depletion-aggravated",
+      "put_code": 213370602,
+      "work_type": "journal-article"
     }
   },
-  "last_updated": "2026-04-30T10:04:45.949334"
+  "last_updated": "2026-04-30T10:43:26.253115"
 }

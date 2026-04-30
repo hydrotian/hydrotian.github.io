@@ -1,17 +1,21 @@
 ---
-title: "Advances in modeling flow direction on a hexagon mesh grid"
+authors: Liao, C., Zhou, T., Xu, D., Barnes, R., Bisht, G., et al.
 collection: publications
-permalink: /publication/2022-HexWatershed
-excerpt: 'This paper introduces HexWatershed, a tool to generate flow network on hexagonal grids'
+comments: true
 date: 2022-01-05
-venue: 'Advances in Water Resources'
-paperurl: 'https://doi.org/10.1016/j.advwatres.2021.104099'
-citation: 'Liao, C., Zhou, T., Xu, D., Barnes, R., Bisht, G., Li, H.-Y., Tan, Z., Tesfa, T., Duan, Z., Engwirda, D., &amp; Leung, L. R. (2022). Advances in hexagon mesh-based flow direction modeling. Advances in Water Resources, 160.'
+excerpt: This paper introduces HexWatershed, a tool to generate flow network on hexagonal
+  grids
+paperurl: https://doi.org/10.1016/j.advwatres.2021.104099
+permalink: /publication/2022-HexWatershed
+pubtype: journal-article
+title: Advances in modeling flow direction on a hexagon mesh grid
+venue: Advances in Water Resources
 ---
 This paper introduces HexWatershed, a tool to generate flow network on hexagonal grids
 
-[Link to the paper](https://doi.org/10.1016/j.advwatres.2021.104099)
+**Authors:** Liao, C., Zhou, T., Xu, D., Barnes, R., Bisht, G., et al.
 
-![image](../images/papers/2022-HexWatershed.png)
+**DOI:** [10.1016/j.advwatres.2021.104099](https://doi.org/10.1016/j.advwatres.2021.104099)
 
-Recommended citation: Liao, C., Zhou, T., Xu, D., Barnes, R., Bisht, G., Li, H.-Y., Tan, Z., Tesfa, T., Duan, Z., Engwirda, D., & Leung, L. R. (2022). Advances in hexagon mesh-based flow direction modeling. Advances in Water Resources, 160.
+<!-- Drop a figure into /images/papers/2022-HexWatershed.png and uncomment: -->
+<!-- ![figure](/images/papers/2022-HexWatershed.png) -->

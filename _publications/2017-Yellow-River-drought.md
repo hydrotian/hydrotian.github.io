@@ -1,17 +1,22 @@
 ---
-title: "Understanding and seasonal forecasting of hydrological drought in the Anthropocene"
+authors: Yuan, X., Zhang, M., Wang, L., Zhou, T.
 collection: publications
-permalink: /publication/2017-Yellow-River-drought
-excerpt: 'This paper discusses drought events in Yellow River basin'
+comments: true
 date: 2017-01-03
-venue: 'Hydrology and Earth System Sciences'
-paperurl: 'https://doi.org/10.5194/hess-21-5477-2017'
-citation: 'Yuan, X., Zhang, M., Wang, L., &amp; Zhou, T. (2017). Understanding and seasonal forecasting of hydrological drought in the Anthropocene. Hydrology and Earth System Sciences, 21, 5477-5492.'
+excerpt: Hydrological drought is not only caused by natural hydroclimate variability
+  but can also be directly altered by human interventions including reservoir operation,
+  irrigation, groundwater exploitation, etc.
+paperurl: https://doi.org/10.5194/hess-21-5477-2017
+permalink: /publication/2017-Yellow-River-drought
+pubtype: journal-article
+title: Understanding and seasonal forecasting of hydrological drought in the Anthropocene
+venue: Hydrology and Earth System Sciences
 ---
-This paper discusses drought events in Yellow River basin
+Hydrological drought is not only caused by natural hydroclimate variability but can also be directly altered by human interventions including reservoir operation, irrigation, groundwater exploitation, etc.
 
-[Link to the paper](https://doi.org/10.5194/hess-21-5477-2017)
+**Authors:** Yuan, X., Zhang, M., Wang, L., Zhou, T.
 
-![image](../images/papers/2017-Yellow-River-drought.png)
+**DOI:** [10.5194/hess-21-5477-2017](https://doi.org/10.5194/hess-21-5477-2017)
 
-Recommended citation: Yuan, X., Zhang, M., Wang, L., & Zhou, T. (2017). Understanding and seasonal forecasting of hydrological drought in the Anthropocene. Hydrology and Earth System Sciences, 21, 5477-5492.
+<!-- Drop a figure into /images/papers/2017-Yellow-River-drought.png and uncomment: -->
+<!-- ![figure](/images/papers/2017-Yellow-River-drought.png) -->
