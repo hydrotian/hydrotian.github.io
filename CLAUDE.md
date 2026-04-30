@@ -1,100 +1,63 @@
 # CLAUDE.md
 
-This is a lightweight academic website built with Jekyll using the Minimal Mistakes theme, hosted on GitHub Pages.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
 
-- **Type**: Academic portfolio website
-- **Owner**: Tian Zhou (SimHydro)
-- **Framework**: Jekyll static site generator
-- **Theme**: Minimal Mistakes (forked from academicpages template)
-- **Hosting**: GitHub Pages
-- **URL**: <https://simhydro.com>
+Academic portfolio site for Tian Zhou (SimHydro), built with Jekyll using a forked academicpages / Minimal Mistakes theme and deployed via GitHub Pages at <https://simhydro.com>. The `master` branch is the deploy branch — pushes trigger a GitHub Pages rebuild. Custom domain is set via `CNAME`.
 
-## Project Structure
-
-- `_config.yml` - Main Jekyll configuration
-- `_pages/` - Static pages (about, cv, publications, etc.)
-- `_publications/` - Individual publication markdown files
-- `_talks/` - Conference talks and presentations
-- `_slides/` - Slide presentations
-- `_includes/` - Reusable template components
-- `_layouts/` - Page layout templates
-- `_sass/` - SCSS stylesheets
-- `assets/` - CSS, JS, fonts, and other static assets
-- `images/` - All image files including papers, photos, profiles
-- `files/` - PDF and other downloadable files
-- `markdown_generator/` - Python scripts for generating markdown from data
-
-## Development Commands
-
-### Local Development
+## Development
 
 ```bash
-# Install dependencies
+# Install Ruby deps
 bundle install
 
-# Serve locally with live reload
+# Serve locally (production-like config)
 bundle exec jekyll serve
 
-# Serve with development config
+# Serve with dev overrides (disables analytics, sets url=localhost:4000)
 bundle exec jekyll serve --config _config.yml,_config.dev.yml
 
-# Clean build directory
+bundle exec jekyll build
 bundle exec jekyll clean
 ```
 
-### Build Commands
+If `bundle install` fails after pulling, the README's recommended fix is to delete `Gemfile.lock` and re-run.
+
+## Content Architecture
+
+Content lives in Jekyll collections, each rendered into a list page under `_pages/`:
+
+- `_publications/` — one markdown file per paper. Permalink pattern `/publication/YYYY-slug`. Each entry typically references an image in `images/papers/` and may set `comments: true` to enable Giscus.
+- `_talks/` — talk/presentation entries.
+- `_slides/` — slide deck pages (with companion files in top-level `slides/`).
+- `_pages/` — static pages (about, cv, publications index, etc.).
+- `_data/navigation.yml` — site nav.
+- `_includes/`, `_layouts/`, `_sass/` — theme overrides.
+- `files/CV_Zhou.pdf` — the linked CV download; replace this file to update the CV.
+
+## Publication Generation — Two Workflows
+
+There are two parallel toolchains for producing `_publications/` markdown. **Prefer the ORCID manager for new work**; the CSV tool is legacy.
+
+### 1. ORCID manager (current)
+
+`orcid_publications_manager.py` (top-level) syncs from ORCID ID `0000-0003-1582-4005`, diffs against existing `_publications/`, and only creates files for missing papers. It writes to `.orcid_cache.json` to avoid re-fetching. See `ORCID_MANAGER_README.md` for the full workflow including Giscus comments setup.
 
 ```bash
-# Build site for production
-bundle exec jekyll build
+pip3 install -r requirements.txt   # requests, PyYAML
+python3 orcid_publications_manager.py
+# rm .orcid_cache.json   # force full refresh
 ```
 
-### Content Management
+Generated entries include `comments: true`; the Giscus integration lives under `_includes/comments-providers/` and is configured via the `giscus:` block in `_config.yml`.
 
-```bash
-# Generate publications from data
-cd markdown_generator
-python publications.py
+### 2. CSV/notebook generator (legacy)
 
-# Generate talks from data
-python talks.py
-```
+`markdown_generator/` contains the original academicpages workflow (`publications.py`, `talks.py`, plus Jupyter notebooks and `add_new_pub_here.csv` / `talks.tsv`). Still functional for talks; for publications, treat as superseded by the ORCID manager.
 
-## Key Features
+## Conventions
 
-- Responsive academic portfolio layout
-- Publication list with images and links
-- Talk/presentation archive
-- CV page with downloadable PDF
-- Photo galleries and slide presentations
-- SEO optimization
-- Google Analytics integration
-
-## Content Guidelines
-
-- Publications are stored as individual markdown files in `_publications/`
-- Each publication should have a corresponding image in `images/papers/`
-- Talk abstracts go in `_talks/` with optional slides in `_slides/`
-- Profile images are stored in `images/` with multiple resolutions
-- CV PDF should be updated in `files/CV_Zhou.pdf`
-
-## Deployment
-
-- Site automatically builds and deploys via GitHub Pages
-- Push to master branch triggers rebuild
-- Custom domain configured via CNAME file
-
-## Theme Customization
-
-- Main styles in `_sass/` directory
-- Custom includes in `_includes/`
-- Site-wide settings in `_config.yml`
-- Navigation configured in `_data/navigation.yml`
-
-## Maintenance Notes
-
-- Ruby dependencies managed via Gemfile
-- Regular updates needed for security patches
-- Jekyll 3.x compatible theme
+- Publication images: `images/papers/YEAR-slug.png`, referenced from the publication's frontmatter.
+- When adding a publication by hand, match the frontmatter shape used by ORCID-generated files (title, collection, permalink, excerpt, date, venue, paperurl, citation).
+- Site-wide settings (author info, analytics, Giscus IDs, social links) all live in `_config.yml`. Do not duplicate them into individual pages.

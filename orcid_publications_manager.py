@@ -260,7 +260,8 @@ class ORCIDPublicationManager:
         """Generate a brief description using the title and venue"""
         title = pub_info.get('title', '')
         venue = pub_info.get('venue', '')
-        
+        is_preprint = pub_info.get('work_type') == 'preprint'
+
         # Simple description generation (can be enhanced with LLM API later)
         if 'model' in title.lower() or 'simulation' in title.lower():
             desc_type = "modeling study"
@@ -270,8 +271,11 @@ class ORCIDPublicationManager:
             desc_type = "review paper"
         else:
             desc_type = "research paper"
-        
-        description = f"This {desc_type} published in {venue}" if venue else f"This {desc_type}"
+
+        if is_preprint:
+            description = f"This {desc_type} preprint posted on {venue}" if venue else f"This {desc_type} preprint"
+        else:
+            description = f"This {desc_type} published in {venue}" if venue else f"This {desc_type}"
         
         # Add topic-specific context based on common keywords
         if any(word in title.lower() for word in ['water', 'hydro', 'climate', 'precipitation']):
@@ -288,7 +292,12 @@ class ORCIDPublicationManager:
         if not pub_info.get('title'):
             logging.warning("Skipping publication without title")
             return
-        
+
+        # Skip supplementary-material companion entries from preprint servers
+        if pub_info['title'].lower().startswith('supplementary material to'):
+            logging.info(f"Skipping supplementary-material entry: {pub_info['title'][:80]}")
+            return
+
         # Generate filename
         filename = f"{pub_info['permalink']}.md"
         
@@ -321,6 +330,10 @@ class ORCIDPublicationManager:
         # Generate description
         description = self.generate_publication_description(pub_info)
         
+        # Map ORCID work-type to a simple category used by the publications page
+        work_type = pub_info.get('work_type', 'journal-article')
+        pubtype = 'preprint' if work_type == 'preprint' else 'journal-article'
+
         # Create frontmatter
         frontmatter = {
             'title': pub_info['title'],
@@ -331,6 +344,7 @@ class ORCIDPublicationManager:
             'venue': pub_info.get('venue', ''),
             'paperurl': pub_info.get('paper_url', ''),
             'citation': pub_info.get('citation', ''),
+            'pubtype': pubtype,
             'comments': True  # Enable comments on publication pages
         }
         

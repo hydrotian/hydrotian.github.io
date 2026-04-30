@@ -11,6 +11,18 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+{% assign preprints = sorted_pubs | where: 'pubtype', 'preprint' %}
+{% assign papers = sorted_pubs | where_exp: 'p', "p.pubtype != 'preprint'" %}
+
+{% if preprints.size > 0 %}
+<h2 id="preprints">Preprints</h2>
+{% for post in preprints %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endif %}
+
+<h2 id="published">Published papers</h2>
+{% for post in papers %}
   {% include archive-single.html %}
 {% endfor %}
