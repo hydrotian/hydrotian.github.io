@@ -7,6 +7,10 @@ redirect_from:
   - /home/
   - /home.html
 ---
+### May 2026
+- Attended [HydroML26](https://www.hydroml.org/home) at UT Austin and presented my work on LLMs' silent failures in Earth system model analysis.
+![HydroML26 at UT Austin](../images/photos/2026-HydroML.jpg)
+
 ### Apr. 2026
 - The [E3SM v3 overview paper](https://doi.org/10.1029/2025MS005302) is published in JAMES.
 - A new paper benchmarking LLMs for Earth system model analysis is submitted to GMD — [preprint here](https://doi.org/10.5194/egusphere-2026-2237).
