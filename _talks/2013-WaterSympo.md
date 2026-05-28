@@ -6,6 +6,5 @@ permalink: /talks/1/9/2013-WaterSympo
 venue: "University of Washington Water symposium"
 date: 1/9/2013
 location: "Seattle, WA"
+link: https://1drv.ms/b/s!Ao47KtQYIZUrsTqmpE4f0FeIOBBd?e=zFHsyQ
 ---
-
-[See slides/poster](https://1drv.ms/b/s!Ao47KtQYIZUrsTqmpE4f0FeIOBBd?e=zFHsyQ)

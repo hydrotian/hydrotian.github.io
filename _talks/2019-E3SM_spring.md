@@ -6,6 +6,5 @@ permalink: /talks/1/3/2019-E3SM_spring
 venue: "E3SM Spring meeting"
 date: 1/3/2019
 location: "Denver, CO"
+link: https://1drv.ms/b/s!Ao47KtQYIZUrsUEQeSaKcCUSTiHo?e=IRc70k
 ---
-
-[See slides/poster](https://1drv.ms/b/s!Ao47KtQYIZUrsUEQeSaKcCUSTiHo?e=IRc70k)

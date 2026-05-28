@@ -6,6 +6,5 @@ permalink: /talks/26/1/2016-paper_reading
 venue: "PNNL group seminar"
 date: 26/1/2016
 location: "Richland, WA"
+link: https://1drv.ms/b/s!Ao47KtQYIZUriz4qNQ6VU4u5kJxc?e=YcsbcZ
 ---
-
-[See slides/poster](https://1drv.ms/b/s!Ao47KtQYIZUriz4qNQ6VU4u5kJxc?e=YcsbcZ)

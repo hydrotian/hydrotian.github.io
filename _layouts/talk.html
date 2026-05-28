@@ -35,14 +35,34 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
-        {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
+        {% if page.type %}<p>{{ page.type }} at <em>{{ page.venue }}</em>, {{ page.location }}</p>{% endif %}
 
         </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.embed %}
+          {% assign embed_ext = page.embed | split: '.' | last | downcase %}
+          {% if embed_ext == 'pdf' %}
+            <div style="border: 1px solid #ddd; margin-bottom: 1em;">
+              <iframe src="{{ page.embed }}" style="width: 100%; height: 80vh; border: 0;" loading="lazy"></iframe>
+            </div>
+          {% else %}
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border: 1px solid #ddd; margin-bottom: 1em;">
+              <iframe src="{{ page.embed }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" loading="lazy" allowfullscreen></iframe>
+            </div>
+          {% endif %}
+        {% elsif page.thumbnail and page.link %}
+          <p><a href="{{ page.link }}" target="_blank" rel="noopener"><img src="{{ page.thumbnail }}" alt="{{ page.title | escape }} — title slide" style="max-width: 100%; border: 1px solid #ddd;"></a></p>
+        {% endif %}
+
         {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+
+        {% if page.link %}
+          <p><a href="{{ page.link }}" class="btn" target="_blank" rel="noopener">
+            {% if page.embed %}Open in new tab{% else %}View slides{% endif %}
+          </a></p>
+        {% endif %}
       </section>
 
       <footer class="page__meta">

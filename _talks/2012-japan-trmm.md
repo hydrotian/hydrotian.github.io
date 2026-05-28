@@ -6,6 +6,5 @@ permalink: /talks/1/11/2012-japan-trmm
 venue: "TRMM conference"
 date: 1/11/2012
 location: "Japan"
+link: https://1drv.ms/b/s!Ao47KtQYIZUrsTsc6MGwxNHdX_sC?e=0r2Q7t
 ---
-
-[See slides/poster](https://1drv.ms/b/s!Ao47KtQYIZUrsTsc6MGwxNHdX_sC?e=0r2Q7t)
