@@ -8,7 +8,7 @@ redirect_from:
   - /home.html
 ---
 ### May 2026
-- Attended [HydroML26](https://www.hydroml.org/home) at UT Austin and presented my work on LLMs' silent failures in Earth system model analysis. [[Link to the slides]](../talks/18/5/2026-HydroML/)
+- Attended [HydroML26](https://www.hydroml.org/home) at UT Austin and presented my work on LLMs' silent failures in Earth system model analysis. [[Link to the slides]](../talks/18/5/2026-HydroML)
 ![HydroML26 at UT Austin](../images/photos/2026-HydroML.jpg)
 
 ### Apr. 2026
