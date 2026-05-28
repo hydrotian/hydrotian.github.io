@@ -6,7 +6,10 @@ main:
 
   - title: "Publications"
     url: /publications/
-    
+
+  - title: "Presentations"
+    url: /talks/
+
   - title: "CV"
     url: /cv/
 
@@ -15,7 +18,3 @@ main:
 
   - title: "HydroSense"
     url: https://hydrosense.simhydro.com
-
-
-#  - title: "Presentations"
-#    url: /talks/ 
