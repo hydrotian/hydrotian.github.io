@@ -7,6 +7,12 @@ redirect_from:
   - /home/
   - /home.html
 ---
+### Jun 2026
+- Attended the E3SM all-hands meeting in Bethesda, MD. A wonderful week of science and reconnecting with the community.
+- Honored to receive the first **"AI in Action" award** for my work on applying large language models (LLMs) to E3SM development and analysis ([related paper](https://doi.org/10.5194/egusphere-2026-2237)).
+![Receiving the first AI in Action award at the E3SM all-hands meeting in Bethesda, MD](../images/photos/2026-E3SM-AllHands-award.jpg)
+![E3SM all-hands meeting group photo, Bethesda, MD](../images/photos/2026-E3SM-AllHands-group.jpg)
+
 ### May 2026
 - Attended [HydroML26](https://www.hydroml.org/home) at UT Austin and presented my work on LLMs' silent failures in Earth system model analysis. [[Link to the slides]](../talks/18/5/2026-HydroML)
 ![HydroML26 at UT Austin](../images/photos/2026-HydroML.jpg)
