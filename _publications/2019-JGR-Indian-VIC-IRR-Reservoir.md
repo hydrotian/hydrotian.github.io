@@ -11,7 +11,7 @@ permalink: /publication/2019-JGR-Indian-VIC-IRR-Reservoir
 pubtype: journal-article
 title: Roles of irrigation and reservoir operations in modulating terrestrial water
   budgets in the Indian sub-continental river basins
-venue: 'Journal of Geophysical Research: Atmosphere'
+venue: 'Journal of Geophysical Research: Atmospheres'
 ---
 Water management activities affect the terrestrial water cycle by increasing water supply and redistributing the water and energy budgets over irrigated agricultural land.
 

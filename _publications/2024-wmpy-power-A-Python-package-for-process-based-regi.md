@@ -9,7 +9,6 @@ paperurl: https://doi.org/10.21105/joss.07225
 permalink: /publication/2024-wmpy-power-A-Python-package-for-process-based-regi
 pubtype: journal-article
 title: 'wmpy-power: A Python package for process-based regional
-
   hydropower simulation'
 venue: Journal of Open Source Software
 ---
