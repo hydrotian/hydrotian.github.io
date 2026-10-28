@@ -45,17 +45,17 @@ redirect_from:
 - Attended the DOE Earth and Environmental Systems Modeling (EESM) Program [PI meeting](https://eesm.science.energy.gov/meetings/eesm-pi-meeting-2024) in Rockville, Maryland. Great discussion on multiple projects including ICoM and InteRFACE Phase 2.
 
 ### May 2024
-- Gave a lecture on the [first in-person E3SM tutorial workshop at NERSC](https://acme-climate.atlassian.net/wiki/spaces/ET/pages/4259971074/2024+E3SM+Tutorial+Workshop) about MOSART. [[Video Link]](https://www.youtube.com/watch?v=yK_uqNvZ4fE&t=6519s)
+- Gave a lecture on the [first in-person E3SM tutorial workshop at NERSC](https://e3sm.atlassian.net/wiki/spaces/ET/pages/4259971074/2024+E3SM+Tutorial+Workshop) about MOSART. [[Video Link]](https://www.youtube.com/watch?v=yK_uqNvZ4fE&t=6519s)
 
 ### Apr. 2024
-- Hoang's [Lower Mississippi paper](https://journals.ametsoc.org/view/journals/hydr/aop/JHM-D-23-0094.1/JHM-D-23-0094.1.xml) is published on JHM
+- Hoang's [Lower Mississippi paper](https://doi.org/10.1175/JHM-D-23-0094.1) is published on JHM
 
 ### Mar. 2024
 - Started to serve in the [JAWRA Editorial Board](https://www.awra.org/AWRA/Members/Publications/JAWRA_Pages__CM_/JAWRA_Editorial_Board.aspx) as an Associate Editor.
 - Donghui's [Climate change will reduce North American inland wetland areas and disrupt their seasonal regimes](https://www.nature.com/articles/s41467-024-45286-z) paper is published on Nature Communications
 
 ### Feb. 2024
-- Gave a talk about IBT and overall ICoM land-river-ocean coupling configuration to a research group in [Sun Yet-Sen University](https://www.google.com/search?client=safari&rls=en&q=sun-yet+sen+university&ie=UTF-8&oe=UTF-8). 
+- Gave a talk about IBT and overall ICoM land-river-ocean coupling configuration to a research group in [Sun Yat-sen University](https://www.sysu.edu.cn/). 
 
 ### Jan. 2024
 - Had a great follow-up discussion about our AGU posters with [Dr. Zhan Tian](https://www.sustech.edu.cn/en/faculties/tianzhan.html) of SUSTech. 

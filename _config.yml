@@ -93,7 +93,7 @@ author:
   location         : "Richland, WA, USA"
   employer         : 
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=AEDwNegAAAAJ&view_op=list_works&authuser=2&sortby=pubdate"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=AEDwNegAAAAJ&view_op=list_works&sortby=pubdate"
   email            :
   researchgate     : "https://www.researchgate.net/profile/Tian_Zhou"
   uri              : "https://www.pnnl.gov/people/tian-zhou"
@@ -109,7 +109,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/zhoutian"
+  linkedin         : "zhoutian"
   orcid            : "https://orcid.org/0000-0003-1582-4005"
   pinterest        :
   soundcloud       :
@@ -154,6 +154,13 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - CLAUDE.md
+  - README.md
+  - ORCID_MANAGER_README.md
+  - markdown_generator
+  - "*.py"
+  - requirements.txt
+  - __pycache__
 keep_files:
   - .git
   - .svn

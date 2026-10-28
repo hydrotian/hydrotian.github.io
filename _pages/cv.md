@@ -15,7 +15,7 @@ redirect_from:
 Education
 ======
 * Ph.D. (2012) Water Resources Engineering, [SUNY College of Environmental Science and Forestry (SUNY-ESF)](https://www.esf.edu) in association with [Syracuse University](https://www.syracuse.edu/)
-    * Advisor: Dr. [Thedore A. Endreny](https://www.esf.edu/ere/endreny/)
+    * Advisor: Dr. [Theodore A. Endreny](https://www.esf.edu/faculty/endreny/)
 * M.S. (2007) Quaternary Geology, [Lanzhou University](https://en.lzu.edu.cn/)
     * Advisor: Dr. [Baotian Pan](https://zhysz.lzu.edu.cn/system/zhye/techinfo.jsp?id=179)
 * B.S. (2004) Geological Science, [Lanzhou University](https://en.lzu.edu.cn/)
